@@ -139,16 +139,26 @@ export class KnowledgeService {
                  }
               }
            }
+           
+           if (!answer.found) {
+               answer = {
+                  found: true,
+                  dataset: 'UNKNOWN',
+                  reference: 'D001',
+                  intent: 'UNKNOWN',
+                  answer: 'மன்னிக்கவும், எனக்கு இது குறித்து சரியாகத் தெரியவில்லை. தயவுசெய்து கேள்வியை மாற்றி அல்லது திருக்குறள் மற்றும் திருவள்ளுவர் பற்றி கேட்கவும்.',
+               };
+           }
         }
         break;
 
       default:
         answer = {
-          found: false,
+          found: true,
           dataset: 'UNKNOWN',
           reference: 'D001',
           intent: 'UNKNOWN',
-          answer: null,
+          answer: 'மன்னிக்கவும், எனக்கு இது குறித்து சரியாகத் தெரியவில்லை. தயவுசெய்து கேள்வியை மாற்றி அல்லது திருக்குறள் மற்றும் திருவள்ளுவர் பற்றி கேட்கவும்.',
         };
     }
 
