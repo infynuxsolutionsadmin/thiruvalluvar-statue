@@ -85,7 +85,7 @@ export class KnowledgeService {
 
       case 'UNKNOWN':
         // Check for specific intents to prioritize DS1 over Topic
-        if (normalizedData.intent === 'KURAL_SPECIFIC' || normalizedData.intent === 'KURAL_GENERAL') {
+        if (normalizedData.intent === 'KURAL_SPECIFIC') {
            const kuralResult = await this.semantic.retrieveKural(retrievalQuery);
            if (kuralResult && kuralResult.id) {
               const explicitIntent = this.parser.detectKuralIntent(rawQuery);
@@ -114,8 +114,15 @@ export class KnowledgeService {
         if (!answer.found) {
            const result = await this.semantic.retrieveAdhigaram(retrievalQuery);
            if (result && result.id) {
-              answer = this.ds2.resolve(result.id, parsed.normalizedQuery);
-              answer.intent = 'TOPIC_ADHIGARAM';
+              if (normalizedData.intent === 'KURAL_GENERAL') {
+                  // The user wants a Kural from this semantically matched Adhigaram
+                  const adhigaramNumber = parseInt(result.id.replace('A', ''), 10);
+                  const kuralId = 'K' + String((adhigaramNumber - 1) * 10 + 1).padStart(4, '0');
+                  answer = this.ds1.resolve(kuralId, 'KURAL_AND_EXPLANATION');
+              } else {
+                  answer = this.ds2.resolve(result.id, parsed.normalizedQuery);
+                  answer.intent = 'TOPIC_ADHIGARAM';
+              }
            } else {
               // Final fallback to Kural semantic search if not tried yet and not explicitly asking for Adhigaram
               if (normalizedData.intent !== 'KURAL_SPECIFIC' && normalizedData.intent !== 'KURAL_GENERAL' && normalizedData.intent !== 'ADHIGARAM_SPECIFIC') {

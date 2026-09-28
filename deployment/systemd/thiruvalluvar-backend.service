@@ -1,0 +1,20 @@
+[Unit]
+Description=Thiruvalluvar Voice AI Backend (NestJS)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+# Running as root is often required if /opt/thiruvalluvar has root ownership.
+# Adjust to 'ubuntu' if permissions allow.
+WorkingDirectory=/opt/thiruvalluvar/app
+Environment="NODE_ENV=production"
+EnvironmentFile=/opt/thiruvalluvar/app/.env
+ExecStart=/usr/bin/npm run start:prod
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

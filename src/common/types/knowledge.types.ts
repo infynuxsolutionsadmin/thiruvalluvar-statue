@@ -62,6 +62,10 @@ export type QueryIntent =
   | 'TOPIC_GENERAL'
   | 'TOPIC_ADHIGARAM'
   | 'TOPIC_KURALS'
+  | 'TOPIC_KURAL_SINGLE'
+  | 'GREETING'
+  | 'SYSTEM_USAGE'
+  | 'STATUE'
   | 'UNKNOWN';
 
 // ─── Topic match result (used by TopicResolverService) ───────────────────────

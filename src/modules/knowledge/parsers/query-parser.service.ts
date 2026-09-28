@@ -120,6 +120,24 @@ export class QueryParserService {
 
   // ── 1. Fixed-fact detection ───────────────────────────────────────────────
   private tryFixedFact(q: string): ParsedQuery | null {
+    // GREETINGS — F005
+    if (q.includes('வணக்கம்')) {
+      return this.factResult(q, 'F005', 'GREETING');
+    }
+
+    // SYSTEM_USAGE — F006
+    if (q.includes('எப்படி') && (q.includes('பயன்படுத்து') || q.includes('பயன்படுத்துவது'))) {
+      return this.factResult(q, 'F006', 'SYSTEM_USAGE');
+    }
+    if (q.includes('எதைப்பற்றது') || q.includes('எதை பற்றது') || q.includes('எதை பற்றியது')) {
+      return this.factResult(q, 'F006', 'SYSTEM_USAGE');
+    }
+
+    // STATUE — F007
+    if (q.includes('சிலை') || q.includes('கன்னியாகுமரி')) {
+      return this.factResult(q, 'F007', 'STATUE');
+    }
+
     // AUTHOR — check before TOTAL_KURALS
     if (q.includes(EZHUTHIYAVAR) || q.includes(IYARIYAVAR) || q.includes(AASIRIYAR)) {
       return this.factResult(q, 'F004', 'AUTHOR');

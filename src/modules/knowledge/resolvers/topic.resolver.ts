@@ -26,6 +26,7 @@ const SCORE = {
 // All expressed as Unicode-escaped roots so no encoding issues occur.
 // These are checked via .includes() on the normalised query.
 const FILLER_ROOTS: string[] = [
+  '\u0BAA\u0BB1\u0BCD\u0BB1\u0BBF\u0B95\u0BCD',        // பற்றிக்
   '\u0BAA\u0BB1\u0BCD\u0BB1\u0BBF',        // பற்றி
   '\u0B95\u0BC1\u0BB1\u0BBF\u0BA4\u0BCD\u0BA4\u0BC1', // குறித்து
   '\u0B9A\u0BCA\u0BB2\u0BCD\u0BB2\u0BC1\u0B99\u0BCD\u0B95\u0BB3\u0BCD', // சொல்லுங்கள்
@@ -39,6 +40,8 @@ const FILLER_ROOTS: string[] = [
   '\u0B9A\u0BBF\u0BB2 \u0B95\u0BC1\u0BB1\u0BB3\u0BCD\u0B95\u0BB3\u0BCD', // சில குறள்கள்
   '\u0BA4\u0BBF\u0BB0\u0BC1\u0B95\u0BCD\u0B95\u0BC1\u0BB1\u0BB3\u0BCD', // திருக்குறள்
   '\u0B95\u0BC1\u0BB1\u0BB3\u0BCD',         // குறள்
+  '\u0B95\u0BC1\u0BB0\u0BB2\u0BCD',         // குரல்
+  '\u0B95\u0BC2\u0BB1\u0BC1\u0BAE\u0BCD',         // கூறும்
   '\u0B85\u0BA4\u0BBF\u0B95\u0BBE\u0BB0\u0BAE\u0BCD', // அதிகாரம்
   '\u0B9A\u0BCA\u0BB2\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1', // சொல்கிறது
   '\u0B9A\u0BCA\u0BB2\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1\u0BAA\u0BCD', // சொல்கிறதுப்
@@ -201,6 +204,26 @@ export class TopicResolverService implements OnModuleInit {
       return this.unknown(normalizedQuery);
     }
 
+    // TOPIC_KURAL_SINGLE: user asked "கடவுளைப் பற்றிய குறள்..."
+    if (intent === 'TOPIC_KURAL_SINGLE') {
+      const ds2Match = matches.find(m => m.dataset === 'DS2');
+      if (ds2Match?.adhigaramNumber !== undefined) {
+        const kurals = (this.ds1ByAdhigaram.get(ds2Match.adhigaramNumber) ?? []);
+        if (kurals.length) {
+          return {
+            found: true,
+            dataset: 'DS1',
+            reference: kurals[0].id,
+            intent: 'KURAL_AND_EXPLANATION',
+            answer: `${kurals[0].kural}\n\nபொருள்: ${kurals[0].simple_explanation}`,
+            record: kurals[0],
+            topicMatches: matches,
+          };
+        }
+      }
+      return this.unknown(normalizedQuery);
+    }
+
     // TOPIC_GENERAL: prefer DS2 → return Adhigaram answer
     if (top.dataset === 'DS2') {
       const adhRec = this.ds2All.find(a => a.id === top.reference);
@@ -220,10 +243,16 @@ export class TopicResolverService implements OnModuleInit {
     return this.unknown(normalizedQuery); // DS1-only hits kept below threshold for now
   }
 
-  // ─── Topic intent detection ───────────────────────────────────────────────
   detectTopicIntent(q: string): QueryIntent {
     if (q.includes(ADHIGARAM_INTENT_SIGNAL)) return 'TOPIC_ADHIGARAM';
     if (MULTIPLE_SIGNAL_ROOTS.some(r => q.includes(r))) return 'TOPIC_KURALS';
+    
+    // Check for "குறள்" or "குரல்" but NOT "திருக்குறள்"
+    const hasSingleKural = /(?<!\S)(குறள்|குரல்)(?!\S)/.test(q) || 
+                           ( (q.includes('குறள்') || q.includes('குரல்')) && !q.includes('திருக்குறள்') && !q.includes('திருக்குரல்') );
+                           
+    if (hasSingleKural) return 'TOPIC_KURAL_SINGLE';
+    
     return 'TOPIC_GENERAL';
   }
 
