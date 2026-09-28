@@ -1,0 +1,22 @@
+[
+  { "query": "கற்ற கல்வியை சரியாக பயன்படுத்த வேண்டும் என்று சொல்லும் குறள் எது?", "expectedIntent": "KURAL_SPECIFIC", "expectedRef": "K0391" },
+  { "query": "கற்ற கல்வியை சரியாக பயன்படுத்த வேண்டும் என்று சொல்லும் குறளின் பொருள் என்ன?", "expectedIntent": "KURAL_SPECIFIC", "expectedRef": "K0391" },
+  { "query": "கற்றதை வாழ்க்கையில் பயன்படுத்த வேண்டும் என்று சொல்லும் குறள் எது?", "expectedIntent": "KURAL_SPECIFIC", "expectedRef": "K0391" },
+  { "query": "ஒருவர் செய்த உதவியை மறக்காமல் இருப்பது பற்றி என்ன குறள்?", "expectedIntent": "KURAL_SPECIFIC", "expectedRef": "K0108" },
+  { "query": "கல்வி ஏன் முக்கியம்?", "expectedIntent": "ADHIGARAM_GENERAL", "expectedRef": "A040" },
+  { "query": "கல்வியைப் பற்றி சொல்லுங்கள்", "expectedIntent": "ADHIGARAM_GENERAL", "expectedRef": "A040" },
+  { "query": "நட்பு பற்றி சொல்லுங்கள்", "expectedIntent": "ADHIGARAM_GENERAL", "expectedRef": "A079" },
+  { "query": "நட்பைப் பற்றிய அதிகாரம் என்ன?", "expectedIntent": "ADHIGARAM_SPECIFIC", "expectedRef": "A079" },
+  { "query": "கல்வியைப் பற்றிய அதிகாரம் என்ன?", "expectedIntent": "ADHIGARAM_SPECIFIC", "expectedRef": "A040" },
+  { "query": "வாழ்க்கையில் கஷ்டங்கள் வந்தால் எப்படி சமாளிக்க வேண்டும்", "expectedIntent": "ADHIGARAM_GENERAL", "expectedRef": "A063" },
+  { "query": "கோபத்தை அடக்குவது எப்படி", "expectedIntent": "ADHIGARAM_GENERAL", "expectedRef": "A031" },
+  { "query": "மற்றவர்களுக்கு உதவுவது ஏன் முக்கியம்", "expectedIntent": "ADHIGARAM_GENERAL", "expectedRef": "A023" },
+  { "query": "எப்படி நன்றாக தூங்குவது?", "expectedIntent": "UNKNOWN", "expectedRef": "UNKNOWN" },
+  { "query": "அகர", "expectedIntent": "UNKNOWN", "expectedRef": "UNKNOWN" },
+  { "query": "xyzzzwqe", "expectedIntent": "UNKNOWN", "expectedRef": "UNKNOWN" },
+  { "query": "எனக்கு ஏதாவது சொல்லுங்கள்", "expectedIntent": "UNKNOWN", "expectedRef": "UNKNOWN" },
+  { "query": "101வது குறள் என்ன", "expectedIntent": "KURAL_SPECIFIC", "expectedRef": "K0101" },
+  { "query": "திருவள்ளுவர் யார்", "expectedIntent": "BIOGRAPHY", "expectedRef": "BIO001" },
+  { "query": "திருக்குறளில் எத்தனை குறள்கள் உள்ளன?", "expectedIntent": "FACT", "expectedRef": "F001" },
+  { "query": "இந்த கருத்தை சொல்லும் குறள் எது?", "expectedIntent": "KURAL_SPECIFIC", "expectedRef": "UNKNOWN" }
+]

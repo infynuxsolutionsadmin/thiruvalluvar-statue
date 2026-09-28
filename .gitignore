@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.venv*
+__pycache__/
+*.wav
+stt-test/C*/
+*.nemo
+patch_nemo/
+*.ckpt
+*.conda
+*.tar.bz2
+miniconda.sh

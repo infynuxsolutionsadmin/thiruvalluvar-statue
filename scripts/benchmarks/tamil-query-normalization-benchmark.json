@@ -1,0 +1,191 @@
+[
+  {
+    "id": "1",
+    "query": "மனசு கஷ்டமாக இருக்கும் போது என்ன செய்யலாம்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Emotional / hardship"
+  },
+  {
+    "id": "2",
+    "query": "வாழ்க்கையில் கஷ்டங்கள் வந்தால் எப்படி சமாளிக்க வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "avoid": ["A005"],
+    "category": "Emotional / hardship"
+  },
+  {
+    "id": "3",
+    "query": "ஒருவரை நம்புவதற்கு முன்பு எதை கவனிக்க வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "avoid": ["K0589"],
+    "category": "Trust"
+  },
+  {
+    "id": "4",
+    "query": "மற்றவர்களிடம் எப்படி பேச வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Speech"
+  },
+  {
+    "id": "5",
+    "query": "கோபத்தை அடக்குவது எப்படி",
+    "expectedAction": "VALID_DS2",
+    "expectedReference": "A031",
+    "category": "Anger"
+  },
+  {
+    "id": "6",
+    "query": "நல்ல மனிதனாக மாற என்ன செய்ய வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Character"
+  },
+  {
+    "id": "7",
+    "query": "வாழ்க்கையில் சரியான பாதையை எப்படி தேர்வு செய்வது",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Life/work"
+  },
+  {
+    "id": "8",
+    "query": "மற்றவர்களுக்கு உதவுவது ஏன் முக்கியம்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "avoid": ["K0834"],
+    "category": "Helping others"
+  },
+  {
+    "id": "9",
+    "query": "தோல்வி வந்தால் என்ன செய்ய வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Emotional / hardship"
+  },
+  {
+    "id": "10",
+    "query": "மனிதன் உண்மையில் நல்லவனாக வாழ என்ன செய்ய வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Character"
+  },
+  {
+    "id": "11",
+    "query": "நல்ல நண்பனை எப்படி அடையாளம் காண்பது",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Friendship"
+  },
+  {
+    "id": "12",
+    "query": "யாரை நண்பனாக தேர்வு செய்ய வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Friendship"
+  },
+  {
+    "id": "13",
+    "query": "கற்றதை வாழ்க்கையில் எப்படி பயன்படுத்த வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Education"
+  },
+  {
+    "id": "14",
+    "query": "அன்பாக இருப்பது ஏன் முக்கியம்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Character"
+  },
+  {
+    "id": "15",
+    "query": "கோபத்தில் பேசுவது நல்லதா?",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Anger"
+  },
+  {
+    "id": "16",
+    "query": "பிறருக்கு தீங்கு செய்யாமல் வாழ்வது எப்படி",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Character"
+  },
+  {
+    "id": "17",
+    "query": "ஒருவர் தன்னுடைய தவறுகளை எப்படி திருத்திக் கொள்ள வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Character"
+  },
+  {
+    "id": "18",
+    "query": "பணத்தை எப்படி பயன்படுத்த வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Life/work"
+  },
+  {
+    "id": "19",
+    "query": "நல்ல தலைவருக்கு என்ன பண்புகள் வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Life/work"
+  },
+  {
+    "id": "20",
+    "query": "வாழ்க்கையில் தோல்வி வந்தால் எப்படி சமாளிக்க வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Emotional / hardship"
+  },
+  {
+    "id": "21",
+    "query": "கற்ற கல்வியை சரியாக பயன்படுத்த வேண்டும் என்று சொல்லும் குறள் எது?",
+    "expectedAction": "VALID_DS1",
+    "expectedReference": "K0391",
+    "category": "Education"
+  },
+  {
+    "id": "22",
+    "query": "கற்ற கல்வியை சரியாக பயன்படுத்த வேண்டும் என்று சொல்லும் குறளின் பொருள் என்ன?",
+    "expectedAction": "VALID_DS1",
+    "expectedReference": "K0391",
+    "expectedIntent": "MEANING",
+    "category": "Education"
+  },
+  {
+    "id": "23",
+    "query": "இந்த குறள் என்ன சொல்லுகிறது?",
+    "expectedAction": "UNKNOWN",
+    "category": "Ambiguous / unsafe"
+  },
+  {
+    "id": "24",
+    "query": "கம்ப்யூட்டர் எப்படி வேலை செய்கிறது",
+    "expectedAction": "UNKNOWN",
+    "category": "Ambiguous / unsafe"
+  },
+  {
+    "id": "25",
+    "query": "hello world",
+    "expectedAction": "UNKNOWN",
+    "category": "Ambiguous / unsafe"
+  },
+  {
+    "id": "26",
+    "query": "பிரியாணி எப்படி சமைப்பது",
+    "expectedAction": "UNKNOWN",
+    "category": "Ambiguous / unsafe"
+  },
+  {
+    "id": "27",
+    "query": "நட்பைப் பற்றிய அதிகாரம் என்ன?",
+    "expectedAction": "VALID_DS2",
+    "expectedReference": "A079",
+    "category": "Friendship"
+  },
+  {
+    "id": "28",
+    "query": "அகர முதல",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Ambiguous / unsafe"
+  },
+  {
+    "id": "29",
+    "query": "101வது குறள் என்ன",
+    "expectedAction": "VALID_DS1",
+    "expectedReference": "K0101",
+    "category": "Education"
+  },
+  {
+    "id": "30",
+    "query": "xyzabc",
+    "expectedAction": "UNKNOWN",
+    "category": "Ambiguous / unsafe"
+  }
+]

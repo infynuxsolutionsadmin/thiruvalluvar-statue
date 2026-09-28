@@ -1,0 +1,561 @@
+[
+  {
+    "id": "DS1SEM_A01",
+    "query": "ஒருவர் செய்த உதவியை மறக்காமல் இருப்பது பற்றி என்ன குறள்?",
+    "expected_reference": "K0110",
+    "expected_type": "DS1",
+    "category": "DIRECT_SEMANTIC",
+    "reason": "K0110 says 'எந்நன்றி கொன்றார்க்கும் உய்வுண்டாம் உய்வில்லை செய்ந்நன்றி கொன்ற மகற்கு'"
+  },
+  {
+    "id": "DS1SEM_A02",
+    "query": "கல்வி கற்பதன் முக்கியத்துவத்தை கூறும் குறள் என்ன?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "DIRECT_SEMANTIC",
+    "reason": "There are many Kurals on education in A040. Too broad."
+  },
+  {
+    "id": "DS1SEM_B01",
+    "query": "ஒருவர் செய்த நன்மையை எப்போதும் நினைவில் வைத்திருக்க வேண்டும் என்று கூறும் குறள் எது?",
+    "expected_reference": "K0108",
+    "expected_type": "DS1",
+    "category": "MEANING_ORIENTED",
+    "reason": "நன்றி மறப்பது நன்றன்று நன்றல்லது அன்றே மறப்பது நன்று"
+  },
+  {
+    "id": "DS1SEM_B02",
+    "query": "கற்ற கல்வியை சரியாக பயன்படுத்த வேண்டும் என்று சொல்லும் குறள் எது?",
+    "expected_reference": "K0391",
+    "expected_type": "DS1",
+    "category": "MEANING_ORIENTED",
+    "reason": "கற்க கசடறக் கற்பவை கற்றபின் நிற்க அதற்குத் தக"
+  },
+  {
+    "id": "DS1SEM_C01",
+    "query": "நன்றி பற்றி ஒரு குறள் சொல்லுங்க",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "CONVERSATIONAL",
+    "reason": "Many kurals about nanri."
+  },
+  {
+    "id": "DS1SEM_C02",
+    "query": "கற்க கசடற குறள் சொல்லுங்க",
+    "expected_reference": "K0391",
+    "expected_type": "DS1",
+    "category": "CONVERSATIONAL"
+  },
+  {
+    "id": "DS1SEM_D01",
+    "query": "கற்க கசடர குறள் என்ன",
+    "expected_reference": "K0391",
+    "expected_type": "DS1",
+    "category": "ASR_VARIATION"
+  },
+  {
+    "id": "DS1SEM_D02",
+    "query": "நன்றி மறக்க கூடாதுனு சொல்லுற குறள் எது",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "ASR_VARIATION",
+    "reason": "Could be 108 or 110."
+  },
+  {
+    "id": "DS1SEM_E01",
+    "query": "கற்க கசடற கற்பவை",
+    "expected_reference": "K0391",
+    "expected_type": "DS1",
+    "category": "CLOSE_KURAL"
+  },
+  {
+    "id": "DS1SEM_E02",
+    "query": "எண்ணென்ப ஏனை எழுத்தென்ப",
+    "expected_reference": "K0392",
+    "expected_type": "DS1",
+    "category": "CLOSE_KURAL"
+  },
+  {
+    "id": "DS1SEM_F01",
+    "query": "அன்பைப் பற்றி திருக்குறள் என்ன சொல்கிறது?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_G01",
+    "query": "இன்று வானிலை எப்படி?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G02",
+    "query": "Python எப்படி கற்கலாம்?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_H01",
+    "query": "1வது குறள் என்ன?",
+    "expected_reference": "K0001",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H02",
+    "query": "முதல் குறள் என்ன?",
+    "expected_reference": "K0001",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H03",
+    "query": "101வது குறள் என்ன?",
+    "expected_reference": "K0101",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H04",
+    "query": "1330வது குறள் என்ன?",
+    "expected_reference": "K1330",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H05",
+    "query": "0வது குறள் என்ன?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H06",
+    "query": "1331வது குறள் என்ன?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_G10",
+    "query": "irrelevant question 0",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G11",
+    "query": "irrelevant question 1",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G12",
+    "query": "irrelevant question 2",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G13",
+    "query": "irrelevant question 3",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G14",
+    "query": "irrelevant question 4",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G15",
+    "query": "irrelevant question 5",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G16",
+    "query": "irrelevant question 6",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G17",
+    "query": "irrelevant question 7",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G18",
+    "query": "irrelevant question 8",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G19",
+    "query": "irrelevant question 9",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G20",
+    "query": "irrelevant question 10",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G21",
+    "query": "irrelevant question 11",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G22",
+    "query": "irrelevant question 12",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G23",
+    "query": "irrelevant question 13",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G24",
+    "query": "irrelevant question 14",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G25",
+    "query": "irrelevant question 15",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G26",
+    "query": "irrelevant question 16",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G27",
+    "query": "irrelevant question 17",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G28",
+    "query": "irrelevant question 18",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G29",
+    "query": "irrelevant question 19",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G30",
+    "query": "irrelevant question 20",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G31",
+    "query": "irrelevant question 21",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G32",
+    "query": "irrelevant question 22",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G33",
+    "query": "irrelevant question 23",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_G34",
+    "query": "irrelevant question 24",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NEGATIVE"
+  },
+  {
+    "id": "DS1SEM_H10",
+    "query": "20வது குறள் என்ன?",
+    "expected_reference": "K0020",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H11",
+    "query": "21வது குறள் என்ன?",
+    "expected_reference": "K0021",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H12",
+    "query": "22வது குறள் என்ன?",
+    "expected_reference": "K0022",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H13",
+    "query": "23வது குறள் என்ன?",
+    "expected_reference": "K0023",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H14",
+    "query": "24வது குறள் என்ன?",
+    "expected_reference": "K0024",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H15",
+    "query": "25வது குறள் என்ன?",
+    "expected_reference": "K0025",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H16",
+    "query": "26வது குறள் என்ன?",
+    "expected_reference": "K0026",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H17",
+    "query": "27வது குறள் என்ன?",
+    "expected_reference": "K0027",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H18",
+    "query": "28வது குறள் என்ன?",
+    "expected_reference": "K0028",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H19",
+    "query": "29வது குறள் என்ன?",
+    "expected_reference": "K0029",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H20",
+    "query": "30வது குறள் என்ன?",
+    "expected_reference": "K0030",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H21",
+    "query": "31வது குறள் என்ன?",
+    "expected_reference": "K0031",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H22",
+    "query": "32வது குறள் என்ன?",
+    "expected_reference": "K0032",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H23",
+    "query": "33வது குறள் என்ன?",
+    "expected_reference": "K0033",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H24",
+    "query": "34வது குறள் என்ன?",
+    "expected_reference": "K0034",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H25",
+    "query": "35வது குறள் என்ன?",
+    "expected_reference": "K0035",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H26",
+    "query": "36வது குறள் என்ன?",
+    "expected_reference": "K0036",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H27",
+    "query": "37வது குறள் என்ன?",
+    "expected_reference": "K0037",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H28",
+    "query": "38வது குறள் என்ன?",
+    "expected_reference": "K0038",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_H29",
+    "query": "39வது குறள் என்ன?",
+    "expected_reference": "K0039",
+    "expected_type": "DS1",
+    "category": "DETERMINISTIC"
+  },
+  {
+    "id": "DS1SEM_F10",
+    "query": "broad topic 0 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F11",
+    "query": "broad topic 1 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F12",
+    "query": "broad topic 2 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F13",
+    "query": "broad topic 3 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F14",
+    "query": "broad topic 4 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F15",
+    "query": "broad topic 5 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F16",
+    "query": "broad topic 6 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F17",
+    "query": "broad topic 7 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F18",
+    "query": "broad topic 8 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F19",
+    "query": "broad topic 9 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F20",
+    "query": "broad topic 10 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F21",
+    "query": "broad topic 11 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F22",
+    "query": "broad topic 12 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F23",
+    "query": "broad topic 13 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  },
+  {
+    "id": "DS1SEM_F24",
+    "query": "broad topic 14 பற்றி திருக்குறள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "BROAD"
+  }
+]

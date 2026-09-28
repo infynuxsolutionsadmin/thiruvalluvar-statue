@@ -1,0 +1,4775 @@
+[
+  {
+    "query": "ஒருவர் செய்த உதவியை மறக்காமல் இருப்பது பற்றி என்ன குறள்?",
+    "expectedKural": "K0110",
+    "vector": {
+      "top1": "K0102",
+      "top5": [
+        "K0102",
+        "K0103",
+        "K0101",
+        "K0219",
+        "K0107",
+        "K0220",
+        "K0242",
+        "K0110",
+        "K0469",
+        "K0105",
+        "K0246",
+        "K0213",
+        "K0925",
+        "K0108",
+        "K0106",
+        "K0815",
+        "K0249",
+        "K0217",
+        "K0798",
+        "K0218"
+      ],
+      "recallAt5": true
+    },
+    "bm25": {
+      "top1": "K0109",
+      "top5": [
+        "K0109",
+        "K0110",
+        "K0103",
+        "K1225",
+        "K0108",
+        "K1207",
+        "K0101",
+        "K0102",
+        "K0105",
+        "K0574",
+        "K0347",
+        "K0538",
+        "K1196",
+        "K0573",
+        "K1141",
+        "K0987",
+        "K0420",
+        "K0508",
+        "K0554",
+        "K0726"
+      ],
+      "recallAt5": true
+    },
+    "hybrid": {
+      "top1": "K0103",
+      "top5": [
+        "K0103",
+        "K0102",
+        "K0110",
+        "K0101",
+        "K0108"
+      ],
+      "recallAt5": true,
+      "finalDecision": "K0110",
+      "decisionReason": "VECTOR_CLOSE_KEYWORD_DISAMBIGUATION"
+    },
+    "result": "CORRECT"
+  },
+  {
+    "query": "கல்வி கற்பதன் முக்கியத்துவத்தை கூறும் குறள் என்ன?",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0391",
+      "top5": [
+        "K0391",
+        "K0398",
+        "K0397",
+        "K0395",
+        "K0002",
+        "K0383",
+        "K0722",
+        "K0939",
+        "K0717",
+        "K0400",
+        "K0134",
+        "K0840",
+        "K0130",
+        "K0409",
+        "K0396",
+        "K0399",
+        "K0394",
+        "K0724",
+        "K0392",
+        "K0393"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0393",
+      "top5": [
+        "K0393",
+        "K0398",
+        "K0383",
+        "K0397",
+        "K0400",
+        "K0543",
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K1056",
+        "K1036",
+        "K0246",
+        "K0322",
+        "K0301",
+        "K0812",
+        "K0941",
+        "K1257"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0398",
+      "top5": [
+        "K0398",
+        "K0397",
+        "K0383",
+        "K0400",
+        "K0393"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "LEXICAL_EVIDENCE_INSUFFICIENT"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "ஒருவர் செய்த நன்மையை எப்போதும் நினைவில் வைத்திருக்க வேண்டும் என்று கூறும் குறள் எது?",
+    "expectedKural": "K0108",
+    "vector": {
+      "top1": "K0652",
+      "top5": [
+        "K0652",
+        "K0469",
+        "K0108",
+        "K0125",
+        "K0033",
+        "K0281",
+        "K1021",
+        "K0109",
+        "K0655",
+        "K0040",
+        "K0288",
+        "K0317",
+        "K0653",
+        "K0309",
+        "K0662",
+        "K1072",
+        "K0323",
+        "K0107",
+        "K0456",
+        "K0138"
+      ],
+      "recallAt5": true
+    },
+    "bm25": {
+      "top1": "K0108",
+      "top5": [
+        "K0108",
+        "K0103",
+        "K0540",
+        "K0589",
+        "K0292",
+        "K0101",
+        "K0102",
+        "K0318",
+        "K0109",
+        "K0105",
+        "K0110",
+        "K0202",
+        "K0628",
+        "K1056",
+        "K1036",
+        "K1225",
+        "K0161",
+        "K0132",
+        "K0710",
+        "K0033"
+      ],
+      "recallAt5": true
+    },
+    "hybrid": {
+      "top1": "K0108",
+      "top5": [
+        "K0108",
+        "K0109",
+        "K0033",
+        "K0652",
+        "K0469"
+      ],
+      "recallAt5": true,
+      "finalDecision": "K0108",
+      "decisionReason": "VECTOR_CLOSE_KEYWORD_DISAMBIGUATION"
+    },
+    "result": "CORRECT"
+  },
+  {
+    "query": "கற்ற கல்வியை சரியாக பயன்படுத்த வேண்டும் என்று சொல்லும் குறள் எது?",
+    "expectedKural": "K0391",
+    "vector": {
+      "top1": "K0391",
+      "top5": [
+        "K0391",
+        "K0398",
+        "K0002",
+        "K0722",
+        "K0397",
+        "K0717",
+        "K0395",
+        "K0396",
+        "K0724",
+        "K0130",
+        "K0373",
+        "K0840",
+        "K0400",
+        "K0134",
+        "K0662",
+        "K0394",
+        "K0399",
+        "K0939",
+        "K0356",
+        "K0383"
+      ],
+      "recallAt5": true
+    },
+    "bm25": {
+      "top1": "K0511",
+      "top5": [
+        "K0511",
+        "K0318",
+        "K0391",
+        "K0683",
+        "K0850",
+        "K0724",
+        "K0399",
+        "K0727",
+        "K0645",
+        "K0336",
+        "K0695",
+        "K1153",
+        "K1156",
+        "K1260",
+        "K0648",
+        "K0424",
+        "K0653",
+        "K0316",
+        "K0281",
+        "K0650"
+      ],
+      "recallAt5": true
+    },
+    "hybrid": {
+      "top1": "K0391",
+      "top5": [
+        "K0391",
+        "K0724",
+        "K0399",
+        "K0511",
+        "K0398"
+      ],
+      "recallAt5": true,
+      "finalDecision": "K0391",
+      "decisionReason": "STRONG_MARGIN"
+    },
+    "result": "CORRECT"
+  },
+  {
+    "query": "நன்றி பற்றி ஒரு குறள் சொல்லுங்க",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0108",
+      "top5": [
+        "K0108",
+        "K0652",
+        "K0102",
+        "K0104",
+        "K0439",
+        "K0097",
+        "K1009",
+        "K0685",
+        "K0107",
+        "K0138",
+        "K1322",
+        "K0213",
+        "K1005",
+        "K1010",
+        "K0125",
+        "K0153",
+        "K0444",
+        "K1061",
+        "K0469",
+        "K1006"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0554",
+      "top5": [
+        "K0554",
+        "K0347",
+        "K0067",
+        "K0994",
+        "K0652",
+        "K1141",
+        "K0097",
+        "K0439",
+        "K0508",
+        "K0685",
+        "K0102",
+        "K0791",
+        "K0108",
+        "K1199",
+        "K1146",
+        "K0104",
+        "K0189",
+        "K1189",
+        "K1037",
+        "K0678"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0652",
+      "top5": [
+        "K0652",
+        "K0108",
+        "K0439",
+        "K0097",
+        "K0102"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "LEXICAL_EVIDENCE_INSUFFICIENT"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "கற்க கசடற குறள் சொல்லுங்க",
+    "expectedKural": "K0391",
+    "vector": {
+      "top1": "K0391",
+      "top5": [
+        "K0391",
+        "K0717",
+        "K0722",
+        "K0396",
+        "K0845",
+        "K0724",
+        "K0130",
+        "K0729",
+        "K0405",
+        "K0414",
+        "K0395",
+        "K0421",
+        "K0002",
+        "K0840",
+        "K0928",
+        "K0397",
+        "K0408",
+        "K0929",
+        "K0404",
+        "K0288"
+      ],
+      "recallAt5": true
+    },
+    "bm25": {
+      "top1": "K0391",
+      "top5": [
+        "K0391",
+        "K0725",
+        "K0845",
+        "K0396",
+        "K1110"
+      ],
+      "recallAt5": true
+    },
+    "hybrid": {
+      "top1": "K0391",
+      "top5": [
+        "K0391",
+        "K0845",
+        "K0396",
+        "K0717",
+        "K0725"
+      ],
+      "recallAt5": true,
+      "finalDecision": "K0391",
+      "decisionReason": "STRONG_MARGIN"
+    },
+    "result": "CORRECT"
+  },
+  {
+    "query": "கற்க கசடர குறள் என்ன",
+    "expectedKural": "K0391",
+    "vector": {
+      "top1": "K0391",
+      "top5": [
+        "K0391",
+        "K0717",
+        "K0845",
+        "K0722",
+        "K0662",
+        "K0289",
+        "K0106",
+        "K0840",
+        "K0724",
+        "K0408",
+        "K0566",
+        "K0288",
+        "K0002",
+        "K0729",
+        "K0287",
+        "K0404",
+        "K0800",
+        "K0921",
+        "K0421",
+        "K0823"
+      ],
+      "recallAt5": true
+    },
+    "bm25": {
+      "top1": "K0391",
+      "top5": [
+        "K0391",
+        "K0725",
+        "K0396",
+        "K1110",
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057"
+      ],
+      "recallAt5": true
+    },
+    "hybrid": {
+      "top1": "K0391",
+      "top5": [
+        "K0391",
+        "K0717",
+        "K0725",
+        "K0845",
+        "K0396"
+      ],
+      "recallAt5": true,
+      "finalDecision": null,
+      "decisionReason": "LEXICAL_EVIDENCE_INSUFFICIENT"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "நன்றி மறக்க கூடாதுனு சொல்லுற குறள் எது",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0108",
+      "top5": [
+        "K0108",
+        "K0652",
+        "K0439",
+        "K0102",
+        "K0422",
+        "K0104",
+        "K0685",
+        "K1005",
+        "K0107",
+        "K0097",
+        "K1008",
+        "K1009",
+        "K0106",
+        "K0138",
+        "K0032",
+        "K0157",
+        "K0798",
+        "K0110",
+        "K0444",
+        "K0469"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0539",
+      "top5": [
+        "K0539",
+        "K0318",
+        "K0994",
+        "K0652",
+        "K0097",
+        "K0439",
+        "K0685",
+        "K0067",
+        "K0102",
+        "K0108",
+        "K0104"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0652",
+      "top5": [
+        "K0652",
+        "K0439",
+        "K0108",
+        "K0102",
+        "K0685"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "LEXICAL_EVIDENCE_INSUFFICIENT"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "கற்க கசடற கற்பவை",
+    "expectedKural": "K0391",
+    "vector": {
+      "top1": "K0391",
+      "top5": [
+        "K0391",
+        "K0717",
+        "K0845",
+        "K0396",
+        "K0395",
+        "K0840",
+        "K0408",
+        "K0130",
+        "K0724",
+        "K0438",
+        "K0404",
+        "K0729",
+        "K0134",
+        "K0279",
+        "K0722",
+        "K0409",
+        "K0002",
+        "K0414",
+        "K0925",
+        "K0208"
+      ],
+      "recallAt5": true
+    },
+    "bm25": {
+      "top1": "K0391",
+      "top5": [
+        "K0391",
+        "K0725",
+        "K0845",
+        "K0396",
+        "K1110"
+      ],
+      "recallAt5": true
+    },
+    "hybrid": {
+      "top1": "K0391",
+      "top5": [
+        "K0391",
+        "K0845",
+        "K0396",
+        "K0717",
+        "K0725"
+      ],
+      "recallAt5": true,
+      "finalDecision": "K0391",
+      "decisionReason": "STRONG_MARGIN"
+    },
+    "result": "CORRECT"
+  },
+  {
+    "query": "எண்ணென்ப ஏனை எழுத்தென்ப",
+    "expectedKural": "K0392",
+    "vector": {
+      "top1": "K0392",
+      "top5": [
+        "K0392",
+        "K0562",
+        "K0306",
+        "K0628",
+        "K1263",
+        "K0107",
+        "K1283",
+        "K0548",
+        "K0666",
+        "K0662",
+        "K0031",
+        "K0987",
+        "K0308",
+        "K0467",
+        "K0760",
+        "K0988",
+        "K1207",
+        "K0568",
+        "K0627",
+        "K0424"
+      ],
+      "recallAt5": true
+    },
+    "bm25": {
+      "top1": "K0392",
+      "top5": [
+        "K0392",
+        "K0410",
+        "K0760"
+      ],
+      "recallAt5": true
+    },
+    "hybrid": {
+      "top1": "K0392",
+      "top5": [
+        "K0392",
+        "K0760",
+        "K0562",
+        "K0410",
+        "K0306"
+      ],
+      "recallAt5": true,
+      "finalDecision": "K0392",
+      "decisionReason": "STRONG_MARGIN"
+    },
+    "result": "CORRECT"
+  },
+  {
+    "query": "அன்பைப் பற்றி திருக்குறள் என்ன சொல்கிறது?",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0076",
+      "top5": [
+        "K0076",
+        "K0072",
+        "K0209",
+        "K0074",
+        "K1325",
+        "K0071",
+        "K1292",
+        "K1300",
+        "K1296",
+        "K1149",
+        "K1154",
+        "K0807",
+        "K0077",
+        "K0285",
+        "K0078",
+        "K1144",
+        "K1294",
+        "K1298",
+        "K1246",
+        "K0983"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K0573",
+        "K1141",
+        "K0987",
+        "K0420",
+        "K0508",
+        "K0554",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189",
+        "K0670",
+        "K1308",
+        "K1165"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0076",
+      "top5": [
+        "K0076",
+        "K0347",
+        "K0072",
+        "K0573",
+        "K0209"
+      ],
+      "recallAt5": false,
+      "finalDecision": "K0076",
+      "decisionReason": "STRONG_MARGIN"
+    },
+    "result": "FALSE_POSITIVE"
+  },
+  {
+    "query": "இன்று வானிலை எப்படி?",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0020",
+      "top5": [
+        "K0020",
+        "K0013",
+        "K1192",
+        "K0011",
+        "K0018",
+        "K0742",
+        "K0015",
+        "K0557",
+        "K0019",
+        "K1268",
+        "K1288",
+        "K0336",
+        "K0999",
+        "K1048",
+        "K0559",
+        "K0334",
+        "K1309",
+        "K0808",
+        "K1133",
+        "K0017"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0050",
+      "top5": [
+        "K0050",
+        "K0862",
+        "K0923",
+        "K1247",
+        "K0674",
+        "K1257",
+        "K0788",
+        "K0667",
+        "K0083",
+        "K0253",
+        "K0904",
+        "K1176",
+        "K0336",
+        "K1172",
+        "K0955",
+        "K1268",
+        "K1171",
+        "K1174",
+        "K1288",
+        "K1090"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0336",
+      "top5": [
+        "K0336",
+        "K1268",
+        "K1288",
+        "K0020",
+        "K0050"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "Python எப்படி கற்கலாம்?",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0836",
+      "top5": [
+        "K0836",
+        "K0396",
+        "K0725",
+        "K0373",
+        "K0398",
+        "K0397",
+        "K0823",
+        "K0724",
+        "K0722",
+        "K0356",
+        "K0508",
+        "K0597",
+        "K0491",
+        "K1238",
+        "K0391",
+        "K0728",
+        "K0423",
+        "K0845",
+        "K0540",
+        "K0996"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0050",
+      "top5": [
+        "K0050",
+        "K0862",
+        "K0923",
+        "K1247",
+        "K0674",
+        "K1257",
+        "K0788",
+        "K0667",
+        "K0253"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0836",
+      "top5": [
+        "K0836",
+        "K0050",
+        "K0396",
+        "K0862",
+        "K0725"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "1வது குறள் என்ன?",
+    "expectedKural": "K0001",
+    "vector": {
+      "top1": "K0444",
+      "top5": [
+        "K0444",
+        "K0662",
+        "K0585",
+        "K0886",
+        "K0289",
+        "K0034",
+        "K1088",
+        "K0264",
+        "K0505",
+        "K0287",
+        "K0463",
+        "K0642",
+        "K0283",
+        "K0174",
+        "K1304",
+        "K0588",
+        "K0965",
+        "K0921",
+        "K0223",
+        "K0971"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0444",
+      "top5": [
+        "K0444",
+        "K0573",
+        "K0662",
+        "K0987",
+        "K0585"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "முதல் குறள் என்ன?",
+    "expectedKural": "K0001",
+    "vector": {
+      "top1": "K0444",
+      "top5": [
+        "K0444",
+        "K0662",
+        "K0642",
+        "K0034",
+        "K0505",
+        "K0254",
+        "K0463",
+        "K1047",
+        "K0965",
+        "K0289",
+        "K0449",
+        "K0288",
+        "K0724",
+        "K0321",
+        "K0223",
+        "K0142",
+        "K0174",
+        "K0287",
+        "K0279",
+        "K0032"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0001",
+      "top5": [
+        "K0001",
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211"
+      ],
+      "recallAt5": true
+    },
+    "hybrid": {
+      "top1": "K0444",
+      "top5": [
+        "K0444",
+        "K0001",
+        "K0662",
+        "K0573",
+        "K0642"
+      ],
+      "recallAt5": true,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "101வது குறள் என்ன?",
+    "expectedKural": "K0101",
+    "vector": {
+      "top1": "K1317",
+      "top5": [
+        "K1317",
+        "K0932",
+        "K0444",
+        "K0287",
+        "K0286",
+        "K0971",
+        "K0642",
+        "K0264",
+        "K1151",
+        "K0662",
+        "K0886",
+        "K0588",
+        "K0029",
+        "K0653",
+        "K0295",
+        "K0289",
+        "K0346",
+        "K1127",
+        "K0925",
+        "K0897"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1317",
+      "top5": [
+        "K1317",
+        "K0573",
+        "K0932",
+        "K0987",
+        "K0444"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "1330வது குறள் என்ன?",
+    "expectedKural": "K1330",
+    "vector": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0981",
+        "K0530",
+        "K0040",
+        "K0269",
+        "K0990",
+        "K0898",
+        "K0758",
+        "K0287",
+        "K0891",
+        "K0432",
+        "K1322",
+        "K0118",
+        "K0289",
+        "K0344",
+        "K1157",
+        "K0612",
+        "K0153",
+        "K0642",
+        "K0223"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0573",
+        "K0981",
+        "K0987",
+        "K0530"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "0வது குறள் என்ன?",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K1064",
+      "top5": [
+        "K1064",
+        "K0662",
+        "K0089",
+        "K0134",
+        "K0174",
+        "K0925",
+        "K0287",
+        "K0213",
+        "K0254",
+        "K0626",
+        "K0140",
+        "K0289",
+        "K0921",
+        "K0653",
+        "K0401",
+        "K0002",
+        "K0409",
+        "K0219",
+        "K0444",
+        "K0402"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1064",
+      "top5": [
+        "K1064",
+        "K0573",
+        "K0662",
+        "K0987",
+        "K0089"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "1331வது குறள் என்ன?",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0287",
+        "K0925",
+        "K1244",
+        "K0700",
+        "K0115",
+        "K1063",
+        "K0611",
+        "K0898",
+        "K0288",
+        "K1165",
+        "K0856",
+        "K0799",
+        "K0653",
+        "K0642",
+        "K1292",
+        "K1300",
+        "K1296",
+        "K1243",
+        "K1088"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1165",
+      "top5": [
+        "K1165",
+        "K0662",
+        "K0573",
+        "K0287",
+        "K0987"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 0",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0414",
+      "top5": [
+        "K0414",
+        "K0419",
+        "K0945",
+        "K0402",
+        "K0089",
+        "K0449",
+        "K0587",
+        "K1064",
+        "K0415",
+        "K0331",
+        "K0416",
+        "K0053",
+        "K0598",
+        "K0412",
+        "K0174",
+        "K0842",
+        "K0406",
+        "K0822",
+        "K0417",
+        "K0875"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0414",
+      "top5": [
+        "K0414",
+        "K0419",
+        "K0945",
+        "K0402",
+        "K0089"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 1",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0587",
+      "top5": [
+        "K0587",
+        "K0414",
+        "K0875",
+        "K0449",
+        "K0174",
+        "K0463",
+        "K0886",
+        "K0331",
+        "K0402",
+        "K1306",
+        "K0510",
+        "K0419",
+        "K0412",
+        "K0417",
+        "K0109",
+        "K1290",
+        "K0942",
+        "K0145",
+        "K0416",
+        "K0842"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0587",
+      "top5": [
+        "K0587",
+        "K0414",
+        "K0875",
+        "K0449",
+        "K0174"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 2",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0419",
+      "top5": [
+        "K0419",
+        "K0414",
+        "K0449",
+        "K0999",
+        "K0417",
+        "K0079",
+        "K0598",
+        "K1306",
+        "K0462",
+        "K0875",
+        "K0331",
+        "K0966",
+        "K0842",
+        "K0674",
+        "K0506",
+        "K0356",
+        "K0174",
+        "K0463",
+        "K0374",
+        "K1090"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0419",
+      "top5": [
+        "K0419",
+        "K0414",
+        "K0449",
+        "K0999",
+        "K0417"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 3",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0431",
+      "top5": [
+        "K0431",
+        "K0734",
+        "K0920",
+        "K0952",
+        "K0432",
+        "K0941",
+        "K0414",
+        "K0682",
+        "K0331",
+        "K0419",
+        "K0383",
+        "K0536",
+        "K0449",
+        "K0079",
+        "K0598",
+        "K0684",
+        "K0041",
+        "K1290",
+        "K1306",
+        "K0417"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0431",
+      "top5": [
+        "K0431",
+        "K0734",
+        "K0920",
+        "K0952",
+        "K0432"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 4",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0146",
+      "top5": [
+        "K0146",
+        "K0035",
+        "K0513",
+        "K0953",
+        "K0631",
+        "K0382",
+        "K0605",
+        "K0501",
+        "K0742",
+        "K0414",
+        "K0470",
+        "K0419",
+        "K0538",
+        "K1306",
+        "K0587",
+        "K0743",
+        "K0842",
+        "K0331",
+        "K0449",
+        "K1101"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0146",
+      "top5": [
+        "K0146",
+        "K0035",
+        "K0513",
+        "K0953",
+        "K0631"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 5",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0675",
+      "top5": [
+        "K0675",
+        "K0983",
+        "K0043",
+        "K0738",
+        "K0271",
+        "K0126",
+        "K0006",
+        "K0025",
+        "K0939",
+        "K1101",
+        "K0174",
+        "K0343",
+        "K0414",
+        "K0632",
+        "K0079",
+        "K0842",
+        "K0230",
+        "K0354",
+        "K0845",
+        "K0027"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0675",
+      "top5": [
+        "K0675",
+        "K0983",
+        "K0043",
+        "K0738",
+        "K0271"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 6",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0331",
+      "top5": [
+        "K0331",
+        "K0417",
+        "K0145",
+        "K0510",
+        "K0414",
+        "K1306",
+        "K0412",
+        "K0230",
+        "K0842",
+        "K0863",
+        "K0223",
+        "K0714",
+        "K0845",
+        "K0464",
+        "K1151",
+        "K0174",
+        "K0449",
+        "K0843",
+        "K0354",
+        "K0836"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0331",
+      "top5": [
+        "K0331",
+        "K0417",
+        "K0145",
+        "K0510",
+        "K0414"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 7",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0538",
+      "top5": [
+        "K0538",
+        "K0835",
+        "K0107",
+        "K0062",
+        "K1278",
+        "K0398",
+        "K0331",
+        "K0420",
+        "K0414",
+        "K1290",
+        "K1116",
+        "K0845",
+        "K0847",
+        "K1270",
+        "K0419",
+        "K0842",
+        "K1306",
+        "K0406",
+        "K0925",
+        "K0174"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0538",
+      "top5": [
+        "K0538",
+        "K0835",
+        "K0107",
+        "K0062",
+        "K1278"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 8",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0843",
+      "top5": [
+        "K0843",
+        "K0009",
+        "K0842",
+        "K0406",
+        "K0230",
+        "K0925",
+        "K0407",
+        "K0835",
+        "K0598",
+        "K0254",
+        "K0331",
+        "K1288",
+        "K1321",
+        "K0538",
+        "K0720",
+        "K0999",
+        "K0402",
+        "K0223",
+        "K0987",
+        "K1290"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0843",
+      "top5": [
+        "K0843",
+        "K0009",
+        "K0842",
+        "K0406",
+        "K0230"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 9",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0079",
+      "top5": [
+        "K0079",
+        "K0702",
+        "K0483",
+        "K0331",
+        "K0598",
+        "K0470",
+        "K0101",
+        "K1151",
+        "K0354",
+        "K0327",
+        "K0987",
+        "K1042",
+        "K1101",
+        "K0230",
+        "K0174",
+        "K0254",
+        "K0300",
+        "K0822",
+        "K0842",
+        "K0419"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0079",
+      "top5": [
+        "K0079",
+        "K0702",
+        "K0483",
+        "K0331",
+        "K0598"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 10",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0101",
+      "top5": [
+        "K0101",
+        "K0331",
+        "K0470",
+        "K0174",
+        "K0110",
+        "K0449",
+        "K0450",
+        "K0087",
+        "K1101",
+        "K0536",
+        "K0414",
+        "K0079",
+        "K0230",
+        "K0417",
+        "K1306",
+        "K0402",
+        "K0925",
+        "K0280",
+        "K0419",
+        "K0249"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0101",
+      "top5": [
+        "K0101",
+        "K0331",
+        "K0470",
+        "K0174",
+        "K0110"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 11",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0254",
+      "top5": [
+        "K0254",
+        "K0987",
+        "K1306",
+        "K0402",
+        "K0790",
+        "K0102",
+        "K0462",
+        "K0925",
+        "K0815",
+        "K0859",
+        "K0230",
+        "K1225",
+        "K0145",
+        "K0313",
+        "K0640",
+        "K0449",
+        "K0110",
+        "K0536",
+        "K0842",
+        "K0843"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0254",
+      "top5": [
+        "K0254",
+        "K0987",
+        "K1306",
+        "K0402",
+        "K0790"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 12",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K1290",
+      "top5": [
+        "K1290",
+        "K0999",
+        "K0419",
+        "K1270",
+        "K0414",
+        "K0845",
+        "K0174",
+        "K0596",
+        "K0859",
+        "K0407",
+        "K0536",
+        "K1136",
+        "K1306",
+        "K0406",
+        "K0857",
+        "K0894",
+        "K0535",
+        "K1116",
+        "K0750",
+        "K0417"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1290",
+      "top5": [
+        "K1290",
+        "K0999",
+        "K0419",
+        "K1270",
+        "K0414"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 13",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0331",
+      "top5": [
+        "K0331",
+        "K0842",
+        "K0470",
+        "K0987",
+        "K0272",
+        "K0432",
+        "K0414",
+        "K1306",
+        "K0845",
+        "K0596",
+        "K0966",
+        "K0857",
+        "K0417",
+        "K1238",
+        "K0925",
+        "K0598",
+        "K0354",
+        "K0110",
+        "K0846",
+        "K0449"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0331",
+      "top5": [
+        "K0331",
+        "K0842",
+        "K0470",
+        "K0987",
+        "K0272"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 14",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0470",
+      "top5": [
+        "K0470",
+        "K0449",
+        "K0842",
+        "K0331",
+        "K0847",
+        "K0510",
+        "K0146",
+        "K0587",
+        "K0535",
+        "K0417",
+        "K0987",
+        "K0230",
+        "K0857",
+        "K0843",
+        "K0859",
+        "K0272",
+        "K1306",
+        "K0035",
+        "K0101",
+        "K0223"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0470",
+      "top5": [
+        "K0470",
+        "K0449",
+        "K0842",
+        "K0331",
+        "K0847"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 15",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K1270",
+      "top5": [
+        "K1270",
+        "K0714",
+        "K1290",
+        "K0675",
+        "K1063",
+        "K0174",
+        "K0536",
+        "K1067",
+        "K0449",
+        "K0702",
+        "K0417",
+        "K0535",
+        "K0875",
+        "K1136",
+        "K0343",
+        "K0851",
+        "K0043",
+        "K0857",
+        "K0436",
+        "K0925"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1270",
+      "top5": [
+        "K1270",
+        "K0714",
+        "K1290",
+        "K0675",
+        "K1063"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 16",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K1290",
+      "top5": [
+        "K1290",
+        "K1270",
+        "K1316",
+        "K0698",
+        "K0331",
+        "K0822",
+        "K1306",
+        "K0587",
+        "K0702",
+        "K1197",
+        "K1136",
+        "K0510",
+        "K0714",
+        "K1069",
+        "K0971",
+        "K0535",
+        "K0174",
+        "K0913",
+        "K0999",
+        "K1048"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1290",
+      "top5": [
+        "K1290",
+        "K1270",
+        "K1316",
+        "K0698",
+        "K0331"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 17",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K1290",
+      "top5": [
+        "K1290",
+        "K0587",
+        "K1270",
+        "K0538",
+        "K0971",
+        "K1069",
+        "K0698",
+        "K0331",
+        "K0438",
+        "K0822",
+        "K1316",
+        "K1070",
+        "K1306",
+        "K0845",
+        "K0249",
+        "K1136",
+        "K0598",
+        "K1059",
+        "K0174",
+        "K1106"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1290",
+      "top5": [
+        "K1290",
+        "K0587",
+        "K1270",
+        "K0538",
+        "K0971"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 18",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K1306",
+      "top5": [
+        "K1306",
+        "K0449",
+        "K0402",
+        "K0598",
+        "K0331",
+        "K1064",
+        "K0419",
+        "K0101",
+        "K1067",
+        "K1063",
+        "K0174",
+        "K0503",
+        "K0822",
+        "K0470",
+        "K0230",
+        "K1047",
+        "K0587",
+        "K0845",
+        "K0693",
+        "K0510"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1306",
+      "top5": [
+        "K1306",
+        "K0449",
+        "K0402",
+        "K0598",
+        "K0331"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 19",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K1306",
+      "top5": [
+        "K1306",
+        "K0598",
+        "K0857",
+        "K0702",
+        "K0987",
+        "K0842",
+        "K0836",
+        "K1063",
+        "K0145",
+        "K0470",
+        "K0510",
+        "K0698",
+        "K0331",
+        "K0537",
+        "K0925",
+        "K0822",
+        "K0462",
+        "K0174",
+        "K0101",
+        "K0402"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1306",
+      "top5": [
+        "K1306",
+        "K0598",
+        "K0857",
+        "K0702",
+        "K0987"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 20",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0419",
+      "top5": [
+        "K0419",
+        "K0462",
+        "K0822",
+        "K0921",
+        "K1063",
+        "K0414",
+        "K0537",
+        "K1290",
+        "K0714",
+        "K0331",
+        "K1270",
+        "K0510",
+        "K0999",
+        "K0439",
+        "K0402",
+        "K0463",
+        "K0470",
+        "K0987",
+        "K0821",
+        "K0174"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0419",
+      "top5": [
+        "K0419",
+        "K0462",
+        "K0822",
+        "K0921",
+        "K1063"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 21",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0331",
+      "top5": [
+        "K0331",
+        "K0847",
+        "K1063",
+        "K0845",
+        "K0836",
+        "K0921",
+        "K0372",
+        "K0510",
+        "K0857",
+        "K0174",
+        "K0714",
+        "K0843",
+        "K0925",
+        "K0928",
+        "K0842",
+        "K0417",
+        "K0419",
+        "K0811",
+        "K0412",
+        "K0698"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0331",
+      "top5": [
+        "K0331",
+        "K0847",
+        "K1063",
+        "K0845",
+        "K0836"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 22",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0331",
+      "top5": [
+        "K0331",
+        "K0174",
+        "K0414",
+        "K0845",
+        "K0626",
+        "K0843",
+        "K0537",
+        "K0842",
+        "K0875",
+        "K0417",
+        "K1063",
+        "K0462",
+        "K0702",
+        "K1290",
+        "K0407",
+        "K0419",
+        "K0079",
+        "K1259",
+        "K0503",
+        "K0483"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0331",
+      "top5": [
+        "K0331",
+        "K0174",
+        "K0414",
+        "K0845",
+        "K0626"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 23",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0845",
+      "top5": [
+        "K0845",
+        "K1290",
+        "K0331",
+        "K0414",
+        "K1270",
+        "K0280",
+        "K1063",
+        "K0842",
+        "K0714",
+        "K0510",
+        "K0419",
+        "K0846",
+        "K1136",
+        "K0406",
+        "K0999",
+        "K0174",
+        "K0402",
+        "K1117",
+        "K1316",
+        "K1308"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0845",
+      "top5": [
+        "K0845",
+        "K1290",
+        "K0331",
+        "K0414",
+        "K1270"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "irrelevant question 24",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0331",
+      "top5": [
+        "K0331",
+        "K1290",
+        "K1270",
+        "K1063",
+        "K1048",
+        "K1136",
+        "K1064",
+        "K0845",
+        "K0230",
+        "K0280",
+        "K1056",
+        "K0414",
+        "K0999",
+        "K0510",
+        "K0535",
+        "K0470",
+        "K0174",
+        "K0622",
+        "K1069",
+        "K0859"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": null,
+      "top5": [],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0331",
+      "top5": [
+        "K0331",
+        "K1290",
+        "K1270",
+        "K1063",
+        "K1048"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "20வது குறள் என்ன?",
+    "expectedKural": "K0020",
+    "vector": {
+      "top1": "K0289",
+      "top5": [
+        "K0289",
+        "K0921",
+        "K1156",
+        "K0834",
+        "K0798",
+        "K1229",
+        "K1063",
+        "K0662",
+        "K0567",
+        "K1060",
+        "K1293",
+        "K1297",
+        "K1088",
+        "K1061",
+        "K0663",
+        "K1048",
+        "K0279",
+        "K1237",
+        "K0288",
+        "K0642"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0289",
+      "top5": [
+        "K0289",
+        "K0573",
+        "K0921",
+        "K0987",
+        "K1156"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "21வது குறள் என்ன?",
+    "expectedKural": "K0021",
+    "vector": {
+      "top1": "K0288",
+      "top5": [
+        "K0288",
+        "K0287",
+        "K0921",
+        "K0662",
+        "K0928",
+        "K0289",
+        "K0847",
+        "K0273",
+        "K0582",
+        "K0309",
+        "K1293",
+        "K1297",
+        "K0117",
+        "K0621",
+        "K0622",
+        "K0286",
+        "K0642",
+        "K0659",
+        "K0274",
+        "K0625"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0288",
+      "top5": [
+        "K0288",
+        "K0573",
+        "K0287",
+        "K0987",
+        "K0921"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "22வது குறள் என்ன?",
+    "expectedKural": "K0022",
+    "vector": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0273",
+        "K0627",
+        "K0289",
+        "K0921",
+        "K1293",
+        "K1297",
+        "K1259",
+        "K0279",
+        "K0309",
+        "K0301",
+        "K0421",
+        "K0174",
+        "K0304",
+        "K0621",
+        "K0928",
+        "K0622",
+        "K0350",
+        "K0560",
+        "K0173"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0301",
+      "top5": [
+        "K0301",
+        "K0662",
+        "K0573",
+        "K0273",
+        "K0987"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "23வது குறள் என்ன?",
+    "expectedKural": "K0023",
+    "vector": {
+      "top1": "K1237",
+      "top5": [
+        "K1237",
+        "K0662",
+        "K0288",
+        "K0273",
+        "K0279",
+        "K0281",
+        "K0077",
+        "K0117",
+        "K1293",
+        "K1297",
+        "K0921",
+        "K0893",
+        "K1243",
+        "K1259",
+        "K0289",
+        "K1244",
+        "K0344",
+        "K0309",
+        "K0642",
+        "K0274"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1237",
+      "top5": [
+        "K1237",
+        "K0573",
+        "K0662",
+        "K0987",
+        "K0288"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "24வது குறள் என்ன?",
+    "expectedKural": "K0024",
+    "vector": {
+      "top1": "K1048",
+      "top5": [
+        "K1048",
+        "K0662",
+        "K0622",
+        "K0288",
+        "K1063",
+        "K0390",
+        "K1064",
+        "K1229",
+        "K0627",
+        "K1293",
+        "K1297",
+        "K0350",
+        "K0552",
+        "K0174",
+        "K0605",
+        "K0859",
+        "K1060",
+        "K0173",
+        "K0893",
+        "K0626"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1048",
+      "top5": [
+        "K1048",
+        "K0573",
+        "K0662",
+        "K0987",
+        "K0622"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "25வது குறள் என்ன?",
+    "expectedKural": "K0025",
+    "vector": {
+      "top1": "K0043",
+      "top5": [
+        "K0043",
+        "K0714",
+        "K0662",
+        "K0350",
+        "K0939",
+        "K0356",
+        "K0642",
+        "K0024",
+        "K0273",
+        "K0271",
+        "K0983",
+        "K0921",
+        "K0279",
+        "K0173",
+        "K0869",
+        "K0924",
+        "K0925",
+        "K0893",
+        "K0622",
+        "K0627"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0043",
+      "top5": [
+        "K0043",
+        "K0573",
+        "K0714",
+        "K0987",
+        "K0662"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "26வது குறள் என்ன?",
+    "expectedKural": "K0026",
+    "vector": {
+      "top1": "K0627",
+      "top5": [
+        "K0627",
+        "K0714",
+        "K0621",
+        "K0971",
+        "K0662",
+        "K0289",
+        "K0287",
+        "K0921",
+        "K1044",
+        "K0654",
+        "K0281",
+        "K1048",
+        "K1237",
+        "K0696",
+        "K1127",
+        "K1235",
+        "K0567",
+        "K1283",
+        "K1263",
+        "K0288"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0627",
+      "top5": [
+        "K0627",
+        "K0573",
+        "K0714",
+        "K0987",
+        "K0621"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "27வது குறள் என்ன?",
+    "expectedKural": "K0027",
+    "vector": {
+      "top1": "K0714",
+      "top5": [
+        "K0714",
+        "K0921",
+        "K0538",
+        "K0971",
+        "K0654",
+        "K0621",
+        "K0663",
+        "K0662",
+        "K0289",
+        "K0203",
+        "K0567",
+        "K0925",
+        "K0173",
+        "K0279",
+        "K0482",
+        "K0659",
+        "K1309",
+        "K0627",
+        "K0444",
+        "K0309"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0714",
+      "top5": [
+        "K0714",
+        "K0573",
+        "K0921",
+        "K0987",
+        "K0538"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "28வது குறள் என்ன?",
+    "expectedKural": "K0028",
+    "vector": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0921",
+        "K0289",
+        "K0287",
+        "K0282",
+        "K0567",
+        "K0582",
+        "K0288",
+        "K0891",
+        "K0621",
+        "K0714",
+        "K0286",
+        "K0203",
+        "K0627",
+        "K0173",
+        "K0309",
+        "K0925",
+        "K0303",
+        "K0893",
+        "K0557"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0573",
+        "K0921",
+        "K0987",
+        "K0289"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "29வது குறள் என்ன?",
+    "expectedKural": "K0029",
+    "vector": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0921",
+        "K0180",
+        "K0287",
+        "K0203",
+        "K1063",
+        "K0289",
+        "K0421",
+        "K0344",
+        "K0869",
+        "K0288",
+        "K0663",
+        "K0558",
+        "K0467",
+        "K0621",
+        "K0653",
+        "K0674",
+        "K0627",
+        "K1127",
+        "K1283"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0573",
+        "K0921",
+        "K0987",
+        "K0180"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "30வது குறள் என்ன?",
+    "expectedKural": "K0030",
+    "vector": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0223",
+        "K0921",
+        "K0344",
+        "K0309",
+        "K1063",
+        "K0289",
+        "K0288",
+        "K1322",
+        "K0269",
+        "K0287",
+        "K0444",
+        "K0642",
+        "K0654",
+        "K0893",
+        "K0714",
+        "K0981",
+        "K0060",
+        "K0567",
+        "K1127"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0573",
+        "K0223",
+        "K0987",
+        "K0921"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "31வது குறள் என்ன?",
+    "expectedKural": "K0031",
+    "vector": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0287",
+        "K1063",
+        "K0652",
+        "K0288",
+        "K1310",
+        "K0921",
+        "K0928",
+        "K1293",
+        "K1297",
+        "K1127",
+        "K0344",
+        "K0653",
+        "K1088",
+        "K0925",
+        "K0309",
+        "K0893",
+        "K1165",
+        "K0286",
+        "K0582"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1165",
+      "top5": [
+        "K1165",
+        "K0662",
+        "K0573",
+        "K0287",
+        "K0987"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "32வது குறள் என்ன?",
+    "expectedKural": "K0032",
+    "vector": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0629",
+        "K0344",
+        "K1229",
+        "K1063",
+        "K0627",
+        "K1165",
+        "K0669",
+        "K0505",
+        "K1022",
+        "K0674",
+        "K0921",
+        "K0100",
+        "K0869",
+        "K0288",
+        "K0144",
+        "K0098",
+        "K0622",
+        "K1207",
+        "K0621"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1165",
+      "top5": [
+        "K1165",
+        "K1207",
+        "K0662",
+        "K0573",
+        "K0629"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "33வது குறள் என்ன?",
+    "expectedKural": "K0033",
+    "vector": {
+      "top1": "K0344",
+      "top5": [
+        "K0344",
+        "K0282",
+        "K0952",
+        "K0431",
+        "K0361",
+        "K0288",
+        "K0289",
+        "K0941",
+        "K0287",
+        "K0662",
+        "K0856",
+        "K1063",
+        "K0567",
+        "K0834",
+        "K0130",
+        "K0860",
+        "K0921",
+        "K0629",
+        "K0654",
+        "K0469"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0344",
+      "top5": [
+        "K0344",
+        "K0573",
+        "K0282",
+        "K0987",
+        "K0952"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "34வது குறள் என்ன?",
+    "expectedKural": "K0034",
+    "vector": {
+      "top1": "K1063",
+      "top5": [
+        "K1063",
+        "K0921",
+        "K0662",
+        "K0289",
+        "K0309",
+        "K0223",
+        "K0625",
+        "K0627",
+        "K1060",
+        "K0654",
+        "K0629",
+        "K0344",
+        "K0864",
+        "K0146",
+        "K0180",
+        "K0174",
+        "K0286",
+        "K0145",
+        "K0288",
+        "K0282"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1063",
+      "top5": [
+        "K1063",
+        "K0573",
+        "K0921",
+        "K0987",
+        "K0662"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "35வது குறள் என்ன?",
+    "expectedKural": "K0035",
+    "vector": {
+      "top1": "K1229",
+      "top5": [
+        "K1229",
+        "K0267",
+        "K0834",
+        "K0043",
+        "K0675",
+        "K0933",
+        "K1060",
+        "K1329",
+        "K0662",
+        "K0627",
+        "K0702",
+        "K0174",
+        "K0939",
+        "K0921",
+        "K0269",
+        "K0344",
+        "K0153",
+        "K0444",
+        "K0864",
+        "K0223"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1229",
+      "top5": [
+        "K1229",
+        "K0573",
+        "K0267",
+        "K0987",
+        "K0834"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "36வது குறள் என்ன?",
+    "expectedKural": "K0036",
+    "vector": {
+      "top1": "K0223",
+      "top5": [
+        "K0223",
+        "K0921",
+        "K1063",
+        "K0928",
+        "K1060",
+        "K1259",
+        "K0627",
+        "K0621",
+        "K0309",
+        "K0281",
+        "K1048",
+        "K1128",
+        "K0174",
+        "K0221",
+        "K0662",
+        "K0707",
+        "K1127",
+        "K1207",
+        "K0130",
+        "K1237"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K1207",
+      "top5": [
+        "K1207",
+        "K0223",
+        "K0573",
+        "K0921",
+        "K0987"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "37வது குறள் என்ன?",
+    "expectedKural": "K0037",
+    "vector": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0309",
+        "K0538",
+        "K0621",
+        "K0933",
+        "K0107",
+        "K0398",
+        "K0707",
+        "K0925",
+        "K0956",
+        "K0834",
+        "K0611",
+        "K1060",
+        "K0281",
+        "K0930",
+        "K0627",
+        "K0971",
+        "K0142",
+        "K0663",
+        "K0835"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0573",
+        "K0309",
+        "K0987",
+        "K0538"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "38வது குறள் என்ன?",
+    "expectedKural": "K0038",
+    "vector": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0834",
+        "K0223",
+        "K0145",
+        "K0224",
+        "K0141",
+        "K1060",
+        "K1047",
+        "K0621",
+        "K0142",
+        "K0933",
+        "K0921",
+        "K1229",
+        "K0148",
+        "K0309",
+        "K0315",
+        "K1079",
+        "K0144",
+        "K0282",
+        "K0627"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0573",
+        "K0834",
+        "K0987",
+        "K0223"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "39வது குறள் என்ன?",
+    "expectedKural": "K0039",
+    "vector": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K1292",
+        "K1300",
+        "K1296",
+        "K0344",
+        "K0834",
+        "K0702",
+        "K0174",
+        "K1060",
+        "K1244",
+        "K0279",
+        "K1047",
+        "K1205",
+        "K0223",
+        "K1123",
+        "K0869",
+        "K0864",
+        "K0153",
+        "K0805",
+        "K1151"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0573",
+      "top5": [
+        "K0573",
+        "K0987",
+        "K0420",
+        "K1225",
+        "K0726",
+        "K0705",
+        "K0301",
+        "K0812",
+        "K0670",
+        "K1308",
+        "K1165",
+        "K1202",
+        "K0574",
+        "K0636",
+        "K1207",
+        "K0057",
+        "K0188",
+        "K0345",
+        "K1211",
+        "K0763"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0573",
+        "K1292",
+        "K0987",
+        "K1300"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "FALSE_NEGATIVE"
+  },
+  {
+    "query": "broad topic 0 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0897",
+      "top5": [
+        "K0897",
+        "K0134",
+        "K1064",
+        "K0280",
+        "K0377",
+        "K0402",
+        "K0444",
+        "K1047",
+        "K1088",
+        "K0345",
+        "K0141",
+        "K0287",
+        "K0449",
+        "K0089",
+        "K0662",
+        "K0189",
+        "K0415",
+        "K0811",
+        "K1133",
+        "K0307"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0189",
+      "top5": [
+        "K0189",
+        "K0897",
+        "K0347",
+        "K0134",
+        "K1141"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 1 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0444",
+      "top5": [
+        "K0444",
+        "K0897",
+        "K0153",
+        "K0345",
+        "K0128",
+        "K0446",
+        "K0142",
+        "K0377",
+        "K1088",
+        "K1104",
+        "K0445",
+        "K0264",
+        "K0144",
+        "K1043",
+        "K0732",
+        "K0443",
+        "K1047",
+        "K1139",
+        "K0141",
+        "K0287"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0444",
+      "top5": [
+        "K0444",
+        "K0347",
+        "K0897",
+        "K1141",
+        "K0153"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 2 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0374",
+      "top5": [
+        "K0374",
+        "K0662",
+        "K0023",
+        "K0674",
+        "K0142",
+        "K0356",
+        "K0141",
+        "K0158",
+        "K0153",
+        "K0345",
+        "K1104",
+        "K1047",
+        "K0897",
+        "K0446",
+        "K0005",
+        "K0377",
+        "K0444",
+        "K1229",
+        "K1133",
+        "K1022"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0374",
+      "top5": [
+        "K0374",
+        "K0347",
+        "K0662",
+        "K1141",
+        "K0023"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 3 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0431",
+      "top5": [
+        "K0431",
+        "K0920",
+        "K1085",
+        "K0432",
+        "K0952",
+        "K0941",
+        "K0589",
+        "K0682",
+        "K0383",
+        "K0734",
+        "K0684",
+        "K1133",
+        "K1047",
+        "K0688",
+        "K1237",
+        "K0344",
+        "K0345",
+        "K1292",
+        "K1300",
+        "K1296"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0431",
+      "top5": [
+        "K0431",
+        "K0347",
+        "K0920",
+        "K1141",
+        "K1085"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 4 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0146",
+      "top5": [
+        "K0146",
+        "K0953",
+        "K0035",
+        "K0501",
+        "K0631",
+        "K0605",
+        "K0513",
+        "K0382",
+        "K0390",
+        "K0743",
+        "K0950",
+        "K0766",
+        "K0444",
+        "K0287",
+        "K0742",
+        "K0897",
+        "K1104",
+        "K1325",
+        "K1292",
+        "K1300"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0146",
+      "top5": [
+        "K0146",
+        "K0347",
+        "K0953",
+        "K1141",
+        "K0035"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 5 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0675",
+      "top5": [
+        "K0675",
+        "K0043",
+        "K0983",
+        "K0738",
+        "K0126",
+        "K0632",
+        "K0939",
+        "K0271",
+        "K0006",
+        "K0025",
+        "K0446",
+        "K0897",
+        "K0343",
+        "K0174",
+        "K0158",
+        "K0142",
+        "K0153",
+        "K1105",
+        "K0780",
+        "K0662"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0675",
+      "top5": [
+        "K0675",
+        "K0347",
+        "K0043",
+        "K1141",
+        "K0983"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 6 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0153",
+      "top5": [
+        "K0153",
+        "K0141",
+        "K0897",
+        "K0845",
+        "K0446",
+        "K0663",
+        "K0144",
+        "K0142",
+        "K0189",
+        "K0724",
+        "K1104",
+        "K0424",
+        "K0345",
+        "K0188",
+        "K1154",
+        "K0223",
+        "K0876",
+        "K0377",
+        "K0811",
+        "K0168"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0189",
+      "top5": [
+        "K0189",
+        "K0153",
+        "K0347",
+        "K0141",
+        "K1141"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 7 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0538",
+      "top5": [
+        "K0538",
+        "K0107",
+        "K0398",
+        "K0835",
+        "K0062",
+        "K0897",
+        "K1278",
+        "K0446",
+        "K1092",
+        "K0662",
+        "K1113",
+        "K0444",
+        "K0977",
+        "K1090",
+        "K1292",
+        "K1300",
+        "K1296",
+        "K0955",
+        "K0780",
+        "K0307"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0538",
+      "top5": [
+        "K0538",
+        "K0347",
+        "K0107",
+        "K1141",
+        "K0398"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 8 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0009",
+        "K0142",
+        "K1133",
+        "K0377",
+        "K1088",
+        "K1276",
+        "K1288",
+        "K0720",
+        "K0444",
+        "K1104",
+        "K1268",
+        "K0289",
+        "K1322",
+        "K0287",
+        "K0141",
+        "K1292",
+        "K1300",
+        "K1296",
+        "K0460"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0662",
+      "top5": [
+        "K0662",
+        "K0347",
+        "K0009",
+        "K1141",
+        "K0142"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 9 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0344",
+      "top5": [
+        "K0344",
+        "K0446",
+        "K0897",
+        "K0153",
+        "K1325",
+        "K1133",
+        "K0043",
+        "K0168",
+        "K0346",
+        "K0135",
+        "K0280",
+        "K1292",
+        "K1300",
+        "K1296",
+        "K0158",
+        "K1104",
+        "K0287",
+        "K0444",
+        "K0106",
+        "K0662"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0344",
+      "top5": [
+        "K0344",
+        "K0347",
+        "K0446",
+        "K1141",
+        "K0897"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 10 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0446",
+      "top5": [
+        "K0446",
+        "K0188",
+        "K0897",
+        "K0153",
+        "K0445",
+        "K0450",
+        "K0444",
+        "K0189",
+        "K0280",
+        "K1235",
+        "K0377",
+        "K0346",
+        "K1104",
+        "K0724",
+        "K1325",
+        "K0142",
+        "K0134",
+        "K0344",
+        "K1237",
+        "K0287"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0189",
+      "top5": [
+        "K0189",
+        "K0446",
+        "K0347",
+        "K0188",
+        "K1141"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 11 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0377",
+      "top5": [
+        "K0377",
+        "K0128",
+        "K1235",
+        "K0158",
+        "K0402",
+        "K1043",
+        "K0859",
+        "K0616",
+        "K1104",
+        "K0168",
+        "K0254",
+        "K1148",
+        "K0700",
+        "K0811",
+        "K0031",
+        "K0928",
+        "K0610",
+        "K1079",
+        "K0345",
+        "K0283"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0377",
+      "top5": [
+        "K0377",
+        "K0347",
+        "K0128",
+        "K1141",
+        "K1235"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 12 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0446",
+      "top5": [
+        "K0446",
+        "K0662",
+        "K0897",
+        "K0444",
+        "K1229",
+        "K1137",
+        "K1136",
+        "K0999",
+        "K1047",
+        "K0845",
+        "K0274",
+        "K1104",
+        "K0344",
+        "K0674",
+        "K0859",
+        "K0134",
+        "K1133",
+        "K0205",
+        "K0158",
+        "K0955"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0446",
+      "top5": [
+        "K0446",
+        "K0347",
+        "K0662",
+        "K1141",
+        "K0897"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 13 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0920",
+      "top5": [
+        "K0920",
+        "K0432",
+        "K0345",
+        "K0897",
+        "K1047",
+        "K0283",
+        "K0589",
+        "K0188",
+        "K0153",
+        "K0431",
+        "K0859",
+        "K1235",
+        "K0446",
+        "K0346",
+        "K1104",
+        "K1292",
+        "K1300",
+        "K1296",
+        "K0444",
+        "K0287"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0920",
+      "top5": [
+        "K0920",
+        "K0347",
+        "K0432",
+        "K1141",
+        "K0345"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  },
+  {
+    "query": "broad topic 14 பற்றி திருக்குறள்",
+    "expectedKural": "UNKNOWN",
+    "vector": {
+      "top1": "K0953",
+      "top5": [
+        "K0953",
+        "K0146",
+        "K0444",
+        "K0345",
+        "K0605",
+        "K0501",
+        "K0035",
+        "K0445",
+        "K0897",
+        "K0443",
+        "K1292",
+        "K1300",
+        "K1296",
+        "K0153",
+        "K0693",
+        "K0610",
+        "K0169",
+        "K0446",
+        "K1047",
+        "K0254"
+      ],
+      "recallAt5": false
+    },
+    "bm25": {
+      "top1": "K0347",
+      "top5": [
+        "K0347",
+        "K1141",
+        "K0508",
+        "K0554",
+        "K0791",
+        "K1199",
+        "K1146",
+        "K0189",
+        "K1189"
+      ],
+      "recallAt5": false
+    },
+    "hybrid": {
+      "top1": "K0953",
+      "top5": [
+        "K0953",
+        "K0347",
+        "K0146",
+        "K1141",
+        "K0444"
+      ],
+      "recallAt5": false,
+      "finalDecision": null,
+      "decisionReason": "BELOW_SIMILARITY_THRESHOLD"
+    },
+    "result": "CORRECT_UNKNOWN"
+  }
+]

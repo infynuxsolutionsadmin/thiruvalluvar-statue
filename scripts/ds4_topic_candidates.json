@@ -1,0 +1,42 @@
+[
+  {
+    "question": "அன்பைப் பற்றி ஒரு குறள் சொல்லுங்க",
+    "reason": "Multiple Kurals cover love/compassion; requires topic retrieval",
+    "status": "DEFERRED"
+  },
+  {
+    "question": "நட்பு பற்றி திருக்குறள் என்ன சொல்கிறது?",
+    "reason": "Adhigaram A079 covers friendship but multiple Kurals exist; topic retrieval needed",
+    "status": "DEFERRED"
+  },
+  {
+    "question": "கல்வி பற்றி ஒரு குறள் சொல்லுங்க",
+    "reason": "Multiple Kurals in Adhigaram A040; topic retrieval needed",
+    "status": "DEFERRED"
+  },
+  {
+    "question": "ஒழுக்கம் பற்றி ஒரு குறள் சொல்லுங்க",
+    "reason": "Multiple Kurals across adhigarams; topic retrieval needed",
+    "status": "DEFERRED"
+  },
+  {
+    "question": "பொருளைப் பற்றி திருவள்ளுவர் என்ன சொல்கிறார்?",
+    "reason": "Entire Porutpal section; requires topic retrieval",
+    "status": "DEFERRED"
+  },
+  {
+    "question": "ஒரு நல்ல மனைவியின் பண்புகள் என்ன?",
+    "reason": "Known false-positive case; no deterministic Kural mapping",
+    "status": "DEFERRED"
+  },
+  {
+    "question": "வாழ்க்கையில் வெற்றி பெற என்ன செய்யணும்?",
+    "reason": "Broad life-advice question; no deterministic single mapping",
+    "status": "DEFERRED"
+  },
+  {
+    "question": "தர்மம் பற்றி திருக்குறள் என்ன சொல்கிறது?",
+    "reason": "Topic spans multiple adhigarams; requires topic retrieval",
+    "status": "DEFERRED"
+  }
+]

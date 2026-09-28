@@ -1,0 +1,388 @@
+[
+  {
+    "id": "DS2SEM_A01",
+    "query": "நட்பைப் பற்றி சொல்லுங்கள்",
+    "expected_reference": "A079",
+    "expected_type": "DS2",
+    "category": "CLOSE_TOPIC"
+  },
+  {
+    "id": "DS2SEM_A02",
+    "query": "நல்ல நண்பனை எப்படி தேர்வு செய்வது?",
+    "expected_reference": "A080",
+    "expected_type": "DS2",
+    "category": "CLOSE_TOPIC"
+  },
+  {
+    "id": "DS2SEM_A03",
+    "query": "நண்பனின் குணங்கள் என்ன?",
+    "expected_reference": "A079",
+    "expected_type": "DS2",
+    "category": "CLOSE_TOPIC"
+  },
+  {
+    "id": "DS2SEM_A04",
+    "query": "நண்பர்களை எப்படி அறிந்து கொள்ளலாம்?",
+    "expected_reference": "A080",
+    "expected_type": "DS2",
+    "category": "CLOSE_TOPIC"
+  },
+  {
+    "id": "DS2SEM_A05",
+    "query": "அன்பைப் பற்றி திருக்குறள் என்ன கூறுகிறது?",
+    "expected_reference": "A008",
+    "expected_type": "DS2",
+    "category": "CLOSE_TOPIC"
+  },
+  {
+    "id": "DS2SEM_A06",
+    "query": "அன்பு மனித வாழ்க்கையில் ஏன் முக்கியம்?",
+    "expected_reference": "A008",
+    "expected_type": "DS2",
+    "category": "CLOSE_TOPIC"
+  },
+  {
+    "id": "DS2SEM_A07",
+    "query": "காதலர் ஊடல் பற்றி வள்ளுவர் கூறுவது என்ன?",
+    "expected_reference": "A131",
+    "expected_type": "DS2",
+    "category": "CLOSE_TOPIC"
+  },
+  {
+    "id": "DS2SEM_A08",
+    "query": "நல்ல மனிதனின் பண்புகள் என்ன?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "CLOSE_TOPIC",
+    "reason": "Ambiguous between A099 (Character) and A100 (Good behavior)"
+  },
+  {
+    "id": "DS2SEM_A09",
+    "query": "ஒருவர் எப்படி நல்ல மனிதராக வாழ வேண்டும்?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "CLOSE_TOPIC",
+    "reason": "Too broad philosophical question"
+  },
+  {
+    "id": "DS2SEM_A10",
+    "query": "கல்வி ஏன் அவசியம்?",
+    "expected_reference": "A040",
+    "expected_type": "DS2",
+    "category": "CLOSE_TOPIC"
+  },
+  {
+    "id": "DS2SEM_A11",
+    "query": "அறிவுடைமை பற்றி திருக்குறள் கூறுவது என்ன?",
+    "expected_reference": "A043",
+    "expected_type": "DS2",
+    "category": "CLOSE_TOPIC"
+  },
+  {
+    "id": "DS2SEM_A12",
+    "query": "கேள்வி ஞானம் ஏன் முக்கியம்?",
+    "expected_reference": "A042",
+    "expected_type": "DS2",
+    "category": "CLOSE_TOPIC"
+  },
+  {
+    "id": "DS2SEM_B01",
+    "query": "நட்பைப் பற்றி கொஞ்சம் சொல்லுங்க",
+    "expected_reference": "A079",
+    "expected_type": "DS2",
+    "category": "NATURAL_CONVERSATIONAL"
+  },
+  {
+    "id": "DS2SEM_B02",
+    "query": "நட்பு குறித்து வள்ளுவர் என்ன சொல்கிறார்?",
+    "expected_reference": "A079",
+    "expected_type": "DS2",
+    "category": "NATURAL_CONVERSATIONAL"
+  },
+  {
+    "id": "DS2SEM_B03",
+    "query": "நல்ல நண்பன் எப்படி இருக்கணும்?",
+    "expected_reference": "A079",
+    "expected_type": "DS2",
+    "category": "NATURAL_CONVERSATIONAL"
+  },
+  {
+    "id": "DS2SEM_B04",
+    "query": "கல்வி ஏன் முக்கியம்?",
+    "expected_reference": "A040",
+    "expected_type": "DS2",
+    "category": "NATURAL_CONVERSATIONAL"
+  },
+  {
+    "id": "DS2SEM_B05",
+    "query": "கல்வியின் பயன் என்ன?",
+    "expected_reference": "A040",
+    "expected_type": "DS2",
+    "category": "NATURAL_CONVERSATIONAL"
+  },
+  {
+    "id": "DS2SEM_B06",
+    "query": "அன்பு இல்லாமல் வாழ்க்கை எப்படி இருக்கும்?",
+    "expected_reference": "A008",
+    "expected_type": "DS2",
+    "category": "NATURAL_CONVERSATIONAL"
+  },
+  {
+    "id": "DS2SEM_B07",
+    "query": "நல்ல வாழ்க்கை வாழ என்ன செய்ய வேண்டும்?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "NATURAL_CONVERSATIONAL",
+    "reason": "Too broad"
+  },
+  {
+    "id": "DS2SEM_B08",
+    "query": "கல்வி பற்றி சொல்லுங்க",
+    "expected_reference": "A040",
+    "expected_type": "DS2",
+    "category": "NATURAL_CONVERSATIONAL"
+  },
+  {
+    "id": "DS2SEM_B09",
+    "query": "அன்பு பத்தி சொல்லுங்கள்",
+    "expected_reference": "A008",
+    "expected_type": "DS2",
+    "category": "NATURAL_CONVERSATIONAL"
+  },
+  {
+    "id": "DS2SEM_C01",
+    "query": "நட்ப பத்தி சொல்லுங்க",
+    "expected_reference": "A079",
+    "expected_type": "DS2",
+    "category": "ASR_VARIATION"
+  },
+  {
+    "id": "DS2SEM_C02",
+    "query": "நல்ல நண்பன் எப்படி இருக்கனும்",
+    "expected_reference": "A079",
+    "expected_type": "DS2",
+    "category": "ASR_VARIATION"
+  },
+  {
+    "id": "DS2SEM_C03",
+    "query": "கல்வி ஏன் அவசியம்",
+    "expected_reference": "A040",
+    "expected_type": "DS2",
+    "category": "ASR_VARIATION"
+  },
+  {
+    "id": "DS2SEM_C04",
+    "query": "அன்ப பத்தி வள்ளுவர் என்ன சொல்றாரு",
+    "expected_reference": "A008",
+    "expected_type": "DS2",
+    "category": "ASR_VARIATION"
+  },
+  {
+    "id": "DS2SEM_C05",
+    "query": "நட்பை பற்றி எந்த அதிகாரம்",
+    "expected_reference": "A079",
+    "expected_type": "DS2",
+    "category": "ASR_VARIATION"
+  },
+  {
+    "id": "DS2SEM_C06",
+    "query": "கல்விய பத்தி எந்த அதிகாரம்",
+    "expected_reference": "A040",
+    "expected_type": "DS2",
+    "category": "ASR_VARIATION"
+  },
+  {
+    "id": "DS2SEM_D01",
+    "query": "எந்த அதிகாரம் நட்பைப் பற்றி பேசுகிறது?",
+    "expected_reference": "A079",
+    "expected_type": "DS2",
+    "category": "SPECIFIC_INTENT"
+  },
+  {
+    "id": "DS2SEM_D02",
+    "query": "நட்பை பற்றிய அதிகாரம் என்ன?",
+    "expected_reference": "A079",
+    "expected_type": "DS2",
+    "category": "SPECIFIC_INTENT"
+  },
+  {
+    "id": "DS2SEM_D03",
+    "query": "கல்வியைப் பற்றி எந்த அதிகாரம் உள்ளது?",
+    "expected_reference": "A040",
+    "expected_type": "DS2",
+    "category": "SPECIFIC_INTENT"
+  },
+  {
+    "id": "DS2SEM_D04",
+    "query": "அன்பை பற்றிய அதிகாரம் எது?",
+    "expected_reference": "A008",
+    "expected_type": "DS2",
+    "category": "SPECIFIC_INTENT"
+  },
+  {
+    "id": "DS2SEM_D05",
+    "query": "அறன் வலியுறுத்தல் அதிகாரம்",
+    "expected_reference": "A004",
+    "expected_type": "DS2",
+    "category": "SPECIFIC_INTENT"
+  },
+  {
+    "id": "DS2SEM_D06",
+    "query": "இல்வாழ்க்கை அதிகாரம் என்ன",
+    "expected_reference": "A005",
+    "expected_type": "DS2",
+    "category": "SPECIFIC_INTENT"
+  },
+  {
+    "id": "DS2SEM_E01",
+    "query": "நல்ல வாழ்க்கை என்றால் என்ன?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "AMBIGUOUS",
+    "reason": "Does not uniquely identify an Adhigaram"
+  },
+  {
+    "id": "DS2SEM_E02",
+    "query": "மனிதன் எப்படி நல்லவனாக வாழ வேண்டும்?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "AMBIGUOUS",
+    "reason": "Does not uniquely identify an Adhigaram"
+  },
+  {
+    "id": "DS2SEM_E03",
+    "query": "வாழ்க்கையில் என்ன முக்கியம்?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "AMBIGUOUS",
+    "reason": "Does not uniquely identify an Adhigaram"
+  },
+  {
+    "id": "DS2SEM_E04",
+    "query": "மனித வாழ்க்கைக்கு தேவையான நல்ல குணங்கள் என்ன?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "AMBIGUOUS",
+    "reason": "Does not uniquely identify an Adhigaram"
+  },
+  {
+    "id": "DS2SEM_E05",
+    "query": "எப்படி மகிழ்ச்சியாக வாழ்வது?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "AMBIGUOUS",
+    "reason": "Does not uniquely identify an Adhigaram"
+  },
+  {
+    "id": "DS2SEM_F01",
+    "query": "xyzabc123",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "DS2SEM_F02",
+    "query": "எனக்கு ஏதாவது சொல்லுங்கள்",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "DS2SEM_F03",
+    "query": "இன்று வானிலை எப்படி இருக்கும்?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "DS2SEM_F04",
+    "query": "சென்னையில் இன்று மழை பெய்யுமா?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "DS2SEM_F05",
+    "query": "Python எப்படி கற்கலாம்?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "DS2SEM_F06",
+    "query": "ஒரு நல்ல mobile எது?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "DS2SEM_G01",
+    "query": "1வது அதிகாரம் என்ன?",
+    "expected_reference": "A001",
+    "expected_type": "DS2",
+    "category": "DETERMINISTIC_BOUNDARY"
+  },
+  {
+    "id": "DS2SEM_G02",
+    "query": "முதல் அதிகாரம் என்ன?",
+    "expected_reference": "A001",
+    "expected_type": "DS2",
+    "category": "DETERMINISTIC_BOUNDARY"
+  },
+  {
+    "id": "DS2SEM_G03",
+    "query": "40வது அதிகாரம் என்ன?",
+    "expected_reference": "A040",
+    "expected_type": "DS2",
+    "category": "DETERMINISTIC_BOUNDARY"
+  },
+  {
+    "id": "DS2SEM_G04",
+    "query": "நாற்பதாவது அதிகாரம் என்ன?",
+    "expected_reference": "A040",
+    "expected_type": "DS2",
+    "category": "DETERMINISTIC_BOUNDARY"
+  },
+  {
+    "id": "DS2SEM_G05",
+    "query": "79வது அதிகாரம் என்ன?",
+    "expected_reference": "A079",
+    "expected_type": "DS2",
+    "category": "DETERMINISTIC_BOUNDARY"
+  },
+  {
+    "id": "DS2SEM_G06",
+    "query": "எழுபத்தி ஒன்பதாவது அதிகாரம் என்ன?",
+    "expected_reference": "A079",
+    "expected_type": "DS2",
+    "category": "DETERMINISTIC_BOUNDARY"
+  },
+  {
+    "id": "DS2SEM_G07",
+    "query": "0வது அதிகாரம் என்ன?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "DETERMINISTIC_BOUNDARY"
+  },
+  {
+    "id": "DS2SEM_G08",
+    "query": "134வது அதிகாரம் என்ன?",
+    "expected_reference": "UNKNOWN",
+    "expected_type": "UNKNOWN",
+    "category": "DETERMINISTIC_BOUNDARY"
+  },
+  {
+    "id": "DS2SEM_G09",
+    "query": "133வது அதிகாரம் என்ன?",
+    "expected_reference": "A133",
+    "expected_type": "DS2",
+    "category": "DETERMINISTIC_BOUNDARY"
+  },
+  {
+    "id": "DS2SEM_G10",
+    "query": "நூற்று முப்பத்தி மூன்றாவது அதிகாரம் என்ன?",
+    "expected_reference": "A133",
+    "expected_type": "DS2",
+    "category": "DETERMINISTIC_BOUNDARY"
+  }
+]

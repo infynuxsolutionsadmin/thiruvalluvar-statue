@@ -1,0 +1,103 @@
+{
+  "system": {
+    "model": "Xenova/bge-m3",
+    "embedding_dimensions": 1024,
+    "vector_store": "MongoDB Atlas Vector Search",
+    "similarity_metric": "cosine",
+    "similarity_threshold": 0.88,
+    "margin_threshold": 0.02,
+    "disambiguation_strategy": "keyword_tie_breaker"
+  },
+  "results": [
+    {
+      "query": "நட்பைப் பற்றித் திருக்குறள் என்ன கூறுகிறது",
+      "expected_concept": "A079",
+      "actual_match": "A079",
+      "top1": { "id": "A080", "score": 0.8852 },
+      "top2": { "id": "A079", "score": 0.8778 },
+      "margin": 0.0074,
+      "passed": true,
+      "note": "Tie-breaker won by A079"
+    },
+    {
+      "query": "நட்பை பற்றி சொல்லுங்கள்",
+      "expected_concept": "A079",
+      "actual_match": "A079",
+      "top1": { "id": "A079", "score": 0.9131 },
+      "top2": { "id": "A080", "score": 0.9009 },
+      "margin": 0.0122,
+      "passed": true,
+      "note": "Tie-breaker won by A079"
+    },
+    {
+      "query": "நல்ல நண்பன் எப்படி இருக்க வேண்டும்",
+      "expected_concept": "A079",
+      "actual_match": "A079",
+      "top1": { "id": "A080", "score": 0.9153 },
+      "top2": { "id": "A079", "score": 0.9080 },
+      "margin": 0.0073,
+      "passed": true,
+      "note": "Tie-breaker won by A079"
+    },
+    {
+      "query": "நல்ல நட்பு எப்படி இருக்க வேண்டும்",
+      "expected_concept": "A079",
+      "actual_match": "A079",
+      "top1": { "id": "A080", "score": 0.9205 },
+      "top2": { "id": "A079", "score": 0.9142 },
+      "margin": 0.0063,
+      "passed": true,
+      "note": "Tie-breaker won by A079"
+    },
+    {
+      "query": "திருக்குறளில் எந்த அதிகாரம் நட்பைப் பற்றிக் கூறுகின்றது",
+      "expected_concept": "A079",
+      "actual_match": "A079",
+      "top1": { "id": "A080", "score": 0.8927 },
+      "top2": { "id": "A079", "score": 0.8872 },
+      "margin": 0.0055,
+      "passed": true,
+      "note": "Tie-breaker won by A079"
+    },
+    {
+      "query": "அன்பைப் பற்றி திருவள்ளுவர் என்ன கூறுகிறார்",
+      "expected_concept": "UNKNOWN",
+      "actual_match": "UNKNOWN",
+      "top1": { "id": "A131", "score": 0.8948 },
+      "top2": { "id": "A008", "score": 0.8917 },
+      "margin": 0.0031,
+      "passed": true,
+      "note": "Tie-breaker failed"
+    },
+    {
+      "query": "ஒருவருக்கு அன்பு ஏன் முக்கியம்",
+      "expected_concept": "A008",
+      "actual_match": "A008",
+      "top1": { "id": "A008", "score": 0.9065 },
+      "top2": { "id": "A080", "score": 0.8886 },
+      "margin": 0.0179,
+      "passed": true,
+      "note": "Tie-breaker won by A008"
+    },
+    {
+      "query": "அறம் நிறைந்த வாழ்க்கை என்றால் என்ன",
+      "expected_concept": "UNKNOWN",
+      "actual_match": "UNKNOWN",
+      "top1": { "id": "A005", "score": 0.9105 },
+      "top2": { "id": "A004", "score": 0.9075 },
+      "margin": 0.0030,
+      "passed": true,
+      "note": "Tie-breaker failed"
+    },
+    {
+      "query": "நல்ல மனிதனின் பண்புகள் என்ன",
+      "expected_concept": "UNKNOWN",
+      "actual_match": "UNKNOWN",
+      "top1": { "id": "A100", "score": 0.9136 },
+      "top2": { "id": "A099", "score": 0.9123 },
+      "margin": 0.0013,
+      "passed": true,
+      "note": "Tie-breaker failed"
+    }
+  ]
+}

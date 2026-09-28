@@ -1,0 +1,1893 @@
+[
+  {
+    "query": "ஒருவர் செய்த உதவியை மறக்காமல் இருப்பது பற்றி என்ன குறள்?",
+    "expected": "K0110",
+    "inTop5": true,
+    "category": "Correct + accepted",
+    "finalKural": "K0110",
+    "decisionReason": "VECTOR_CLOSE_KEYWORD_DISAMBIGUATION",
+    "rrfMargin": 0.000902723155188391,
+    "candidates": [
+      {
+        "kuralId": "K0103",
+        "hybridRank": 1,
+        "rrfScore": 0.03200204813108039,
+        "vectorScore": 0.8998105525970459,
+        "bm25Score": 5.786377906799316,
+        "keywordScore": 0.25,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0102",
+        "hybridRank": 2,
+        "rrfScore": 0.031099324975891997,
+        "vectorScore": 0.9002247452735901,
+        "bm25Score": 4.458859443664551,
+        "keywordScore": 0.25,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0110",
+        "hybridRank": 3,
+        "rrfScore": 0.030834914611005692,
+        "vectorScore": 0.8929610252380371,
+        "bm25Score": 6.23954963684082,
+        "keywordScore": 0.5,
+        "isExpected": true,
+        "isAccepted": true
+      },
+      {
+        "kuralId": "K0101",
+        "hybridRank": 4,
+        "rrfScore": 0.030798389007344232,
+        "vectorScore": 0.8994195461273193,
+        "bm25Score": 4.522634506225586,
+        "keywordScore": 0.25,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0108",
+        "hybridRank": 5,
+        "rrfScore": 0.0288981288981289,
+        "vectorScore": 0.8906669616699219,
+        "bm25Score": 5.096228122711182,
+        "keywordScore": 0.25,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "ஒருவர் செய்த நன்மையை எப்போதும் நினைவில் வைத்திருக்க வேண்டும் என்று கூறும் குறள் எது?",
+    "expected": "K0108",
+    "inTop5": true,
+    "category": "Correct + accepted",
+    "finalKural": "K0108",
+    "decisionReason": "VECTOR_CLOSE_KEYWORD_DISAMBIGUATION",
+    "rrfMargin": 0.0030678225198371156,
+    "candidates": [
+      {
+        "kuralId": "K0108",
+        "hybridRank": 1,
+        "rrfScore": 0.032266458495966696,
+        "vectorScore": 0.8952381014823914,
+        "bm25Score": 7.457852363586426,
+        "keywordScore": 0.2857142857142857,
+        "isExpected": true,
+        "isAccepted": true
+      },
+      {
+        "kuralId": "K0109",
+        "hybridRank": 2,
+        "rrfScore": 0.02919863597612958,
+        "vectorScore": 0.8898714780807495,
+        "bm25Score": 4.1120147705078125,
+        "keywordScore": 0.14285714285714285,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0033",
+        "hybridRank": 3,
+        "rrfScore": 0.027884615384615386,
+        "vectorScore": 0.890779972076416,
+        "bm25Score": 2.9716954231262207,
+        "keywordScore": 0.14285714285714285,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0652",
+        "hybridRank": 4,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.9045296311378479,
+        "bm25Score": 0,
+        "keywordScore": 0.14285714285714285,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0469",
+        "hybridRank": 5,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8954687714576721,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "கற்ற கல்வியை சரியாக பயன்படுத்த வேண்டும் என்று சொல்லும் குறள் எது?",
+    "expected": "K0391",
+    "inTop5": true,
+    "category": "Correct + accepted",
+    "finalKural": "K0391",
+    "decisionReason": "STRONG_MARGIN",
+    "rrfMargin": 0.0026221897212631365,
+    "candidates": [
+      {
+        "kuralId": "K0391",
+        "hybridRank": 1,
+        "rrfScore": 0.032266458495966696,
+        "vectorScore": 0.9168320298194885,
+        "bm25Score": 3.650550603866577,
+        "keywordScore": 0.3333333333333333,
+        "isExpected": true,
+        "isAccepted": true
+      },
+      {
+        "kuralId": "K0724",
+        "hybridRank": 2,
+        "rrfScore": 0.02964426877470356,
+        "vectorScore": 0.8948931694030762,
+        "bm25Score": 3.154709815979004,
+        "keywordScore": 0.3333333333333333,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0399",
+        "hybridRank": 3,
+        "rrfScore": 0.027912386121341344,
+        "vectorScore": 0.8870612978935242,
+        "bm25Score": 3.0231199264526367,
+        "keywordScore": 0.16666666666666666,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0511",
+        "hybridRank": 4,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 4.324808597564697,
+        "keywordScore": 0.3333333333333333,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0398",
+        "hybridRank": 5,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.9096462726593018,
+        "bm25Score": 0,
+        "keywordScore": 0.16666666666666666,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "கற்க கசடற குறள் சொல்லுங்க",
+    "expected": "K0391",
+    "inTop5": true,
+    "category": "Correct + accepted",
+    "finalKural": "K0391",
+    "decisionReason": "STRONG_MARGIN",
+    "rrfMargin": 0.0015292539882703834,
+    "candidates": [
+      {
+        "kuralId": "K0391",
+        "hybridRank": 1,
+        "rrfScore": 0.03278688524590164,
+        "vectorScore": 0.9256612062454224,
+        "bm25Score": 4.0965352058410645,
+        "keywordScore": 0.5,
+        "isExpected": true,
+        "isAccepted": true
+      },
+      {
+        "kuralId": "K0845",
+        "hybridRank": 2,
+        "rrfScore": 0.03125763125763126,
+        "vectorScore": 0.9011218547821045,
+        "bm25Score": 3.077103614807129,
+        "keywordScore": 0.5,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0396",
+        "hybridRank": 3,
+        "rrfScore": 0.03125,
+        "vectorScore": 0.9029200077056885,
+        "bm25Score": 2.674623489379883,
+        "keywordScore": 0.5,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0717",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.9102329015731812,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0725",
+        "hybridRank": 5,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 3.593456745147705,
+        "keywordScore": 0.5,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "கற்க கசடர குறள் என்ன",
+    "expected": "K0391",
+    "inTop5": true,
+    "category": "Correct + rejected",
+    "finalKural": null,
+    "decisionReason": "LEXICAL_EVIDENCE_INSUFFICIENT",
+    "rrfMargin": 0.016657852987837125,
+    "candidates": [
+      {
+        "kuralId": "K0391",
+        "hybridRank": 1,
+        "rrfScore": 0.03278688524590164,
+        "vectorScore": 0.9139418601989746,
+        "bm25Score": 4.0965352058410645,
+        "keywordScore": 0.5,
+        "isExpected": true,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0717",
+        "hybridRank": 2,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8950519561767578,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0725",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 3.593456745147705,
+        "keywordScore": 0.5,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0845",
+        "hybridRank": 4,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8896636366844177,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0396",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0,
+        "bm25Score": 2.674623489379883,
+        "keywordScore": 0.5,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "கற்க கசடற கற்பவை",
+    "expected": "K0391",
+    "inTop5": true,
+    "category": "Correct + accepted",
+    "finalKural": "K0391",
+    "decisionReason": "STRONG_MARGIN",
+    "rrfMargin": 0.0010408534998698968,
+    "candidates": [
+      {
+        "kuralId": "K0391",
+        "hybridRank": 1,
+        "rrfScore": 0.03278688524590164,
+        "vectorScore": 0.9231150150299072,
+        "bm25Score": 7.229585647583008,
+        "keywordScore": 0.6666666666666666,
+        "isExpected": true,
+        "isAccepted": true
+      },
+      {
+        "kuralId": "K0845",
+        "hybridRank": 2,
+        "rrfScore": 0.031746031746031744,
+        "vectorScore": 0.894980251789093,
+        "bm25Score": 3.077103614807129,
+        "keywordScore": 0.3333333333333333,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0396",
+        "hybridRank": 3,
+        "rrfScore": 0.03125,
+        "vectorScore": 0.8933497667312622,
+        "bm25Score": 2.674623489379883,
+        "keywordScore": 0.3333333333333333,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0717",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.9024040102958679,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0725",
+        "hybridRank": 5,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 3.593456745147705,
+        "keywordScore": 0.3333333333333333,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "எண்ணென்ப ஏனை எழுத்தென்ப",
+    "expected": "K0392",
+    "inTop5": true,
+    "category": "Correct + accepted",
+    "finalKural": "K0392",
+    "decisionReason": "STRONG_MARGIN",
+    "rrfMargin": 0.003580536039552433,
+    "candidates": [
+      {
+        "kuralId": "K0392",
+        "hybridRank": 1,
+        "rrfScore": 0.03278688524590164,
+        "vectorScore": 0.9128159880638123,
+        "bm25Score": 9.008087158203125,
+        "keywordScore": 1,
+        "isExpected": true,
+        "isAccepted": true
+      },
+      {
+        "kuralId": "K0760",
+        "hybridRank": 2,
+        "rrfScore": 0.029206349206349208,
+        "vectorScore": 0.8784605264663696,
+        "bm25Score": 2.7419865131378174,
+        "keywordScore": 0.3333333333333333,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0562",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.892061173915863,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0410",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.9001758098602295,
+        "keywordScore": 0.3333333333333333,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0306",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8881944417953491,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "1வது குறள் என்ன?",
+    "expected": "K0001",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0444",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8504269123077393,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0662",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8499304056167603,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0585",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8498311042785645,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "முதல் குறள் என்ன?",
+    "expected": "K0001",
+    "inTop5": true,
+    "category": "Correct + rejected",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0444",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.860910177230835,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0001",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 3.1910691261291504,
+        "keywordScore": 1,
+        "isExpected": true,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0662",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8601266145706177,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0642",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.856317400932312,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "101வது குறள் என்ன?",
+    "expected": "K0101",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K1317",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8327937126159668,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0932",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8276712894439697,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0444",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8238666653633118,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "1330வது குறள் என்ன?",
+    "expected": "K1330",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0662",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8234987258911133,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0981",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8217037320137024,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0530",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8193686008453369,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "20வது குறள் என்ன?",
+    "expected": "K0020",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0289",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8110129833221436,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0921",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8104453086853027,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K1156",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8074040412902832,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "21வது குறள் என்ன?",
+    "expected": "K0021",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0288",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8199157118797302,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0287",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8185616731643677,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0921",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8176419734954834,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "22வது குறள் என்ன?",
+    "expected": "K0022",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0.012616437553631059,
+    "candidates": [
+      {
+        "kuralId": "K0301",
+        "hybridRank": 1,
+        "rrfScore": 0.02900988017658188,
+        "vectorScore": 0.8158587217330933,
+        "bm25Score": 2.1804521083831787,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0662",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8266022205352783,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 3,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0273",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8210610151290894,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 5,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "23வது குறள் என்ன?",
+    "expected": "K0023",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K1237",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8230907917022705,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0662",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8230416774749756,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0288",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8224576711654663,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "24வது குறள் என்ன?",
+    "expected": "K0024",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K1048",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8323456645011902,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0662",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.831791341304779,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0622",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8310940861701965,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "25வது குறள் என்ன?",
+    "expected": "K0025",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0043",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8286725878715515,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0714",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8150439262390137,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0662",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8146317005157471,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "26வது குறள் என்ன?",
+    "expected": "K0026",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0627",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8254700899124146,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0714",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8228988647460938,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0621",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8216655254364014,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "27வது குறள் என்ன?",
+    "expected": "K0027",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0714",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8198839426040649,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0921",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8176811337471008,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0538",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8163524866104126,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "28வது குறள் என்ன?",
+    "expected": "K0028",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0662",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8276072144508362,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0921",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8274142146110535,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0289",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.827147901058197,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "29வது குறள் என்ன?",
+    "expected": "K0029",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0662",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.831932783126831,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0921",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8236169815063477,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0180",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8235927820205688,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "30வது குறள் என்ன?",
+    "expected": "K0030",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0662",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8110918402671814,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0223",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8069303631782532,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0921",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.806307315826416,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "31வது குறள் என்ன?",
+    "expected": "K0031",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0.01051157723981552,
+    "candidates": [
+      {
+        "kuralId": "K1165",
+        "hybridRank": 1,
+        "rrfScore": 0.02690501986276634,
+        "vectorScore": 0.8080659508705139,
+        "bm25Score": 1.7036751508712769,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0662",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.815686821937561,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 3,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0287",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.815322756767273,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 5,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "32வது குறள் என்ன?",
+    "expected": "K0032",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0.0030183189951472796,
+    "candidates": [
+      {
+        "kuralId": "K1165",
+        "hybridRank": 1,
+        "rrfScore": 0.02900988017658188,
+        "vectorScore": 0.8124729990959167,
+        "bm25Score": 1.7036751508712769,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K1207",
+        "hybridRank": 2,
+        "rrfScore": 0.0259915611814346,
+        "vectorScore": 0.809929609298706,
+        "bm25Score": 1.6726995706558228,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0662",
+        "hybridRank": 3,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8204001188278198,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 4,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0629",
+        "hybridRank": 5,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8155340552330017,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "33வது குறள் என்ன?",
+    "expected": "K0033",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0344",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8300366997718811,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0282",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8293724060058594,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0952",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8280725479125977,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "34வது குறள் என்ன?",
+    "expected": "K0034",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K1063",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8353594541549683,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0921",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8328491449356079,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0662",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8326479196548462,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "35வது குறள் என்ன?",
+    "expected": "K0035",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K1229",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8237401247024536,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0267",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8234978914260864,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0834",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8234309554100037,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "36வது குறள் என்ன?",
+    "expected": "K0036",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0.009760403530895332,
+    "candidates": [
+      {
+        "kuralId": "K1207",
+        "hybridRank": 1,
+        "rrfScore": 0.026153846153846153,
+        "vectorScore": 0.8182289600372314,
+        "bm25Score": 1.6726995706558228,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0223",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8260074257850647,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 3,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0921",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8251397609710693,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 5,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "37வது குறள் என்ன?",
+    "expected": "K0037",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0662",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8216454982757568,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0309",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8214153051376343,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0538",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8209348320960999,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "38வது குறள் என்ன?",
+    "expected": "K0038",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0662",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8333929777145386,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0834",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8266263604164124,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0223",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8260993957519531,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  },
+  {
+    "query": "39வது குறள் என்ன?",
+    "expected": "K0039",
+    "inTop5": false,
+    "category": "Correct Kural absent from Top-5",
+    "finalKural": null,
+    "decisionReason": "BELOW_SIMILARITY_THRESHOLD",
+    "rrfMargin": 0,
+    "candidates": [
+      {
+        "kuralId": "K0662",
+        "hybridRank": 1,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0.8278253674507141,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0573",
+        "hybridRank": 2,
+        "rrfScore": 0.01639344262295082,
+        "vectorScore": 0,
+        "bm25Score": 2.34735369682312,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K1292",
+        "hybridRank": 3,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0.8231115341186523,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K0987",
+        "hybridRank": 4,
+        "rrfScore": 0.016129032258064516,
+        "vectorScore": 0,
+        "bm25Score": 2.3177847862243652,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      },
+      {
+        "kuralId": "K1300",
+        "hybridRank": 5,
+        "rrfScore": 0.015873015873015872,
+        "vectorScore": 0.8231115341186523,
+        "bm25Score": 0,
+        "keywordScore": 0,
+        "isExpected": false,
+        "isAccepted": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,991 @@
+[
+  {
+    "id": "1",
+    "query": "மனசு கஷ்டமாக இருக்கும் போது என்ன செய்யலாம்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Emotional / hardship",
+    "normalizedData": {
+      "originalQuery": "மனசு கஷ்டமாக இருக்கும் போது என்ன செய்யலாம்",
+      "concepts": [
+        "துன்பம்",
+        "இடுக்கண்",
+        "மனத் துன்பம்",
+        "அல்லல்",
+        "மன உறுதி",
+        "துன்பத்தை எதிர்கொள்வது",
+        "சமாளித்தல்"
+      ],
+      "broadTerms": [
+        "இருக்கும்",
+        "போது",
+        "என்ன",
+        "செய்யலாம்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 369,
+    "actualRef": "A063",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "2",
+    "query": "வாழ்க்கையில் கஷ்டங்கள் வந்தால் எப்படி சமாளிக்க வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "avoid": [
+      "A005"
+    ],
+    "category": "Emotional / hardship",
+    "normalizedData": {
+      "originalQuery": "வாழ்க்கையில் கஷ்டங்கள் வந்தால் எப்படி சமாளிக்க வேண்டும்",
+      "concepts": [
+        "துன்பம்",
+        "இடுக்கண்",
+        "மனத் துன்பம்",
+        "அல்லல்",
+        "மன உறுதி",
+        "துன்பத்தை எதிர்கொள்வது",
+        "சமாளித்தல்"
+      ],
+      "broadTerms": [
+        "வாழ்க்கையில்",
+        "வந்தால்",
+        "எப்படி",
+        "வேண்டும்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 244,
+    "actualRef": "A063",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "3",
+    "query": "ஒருவரை நம்புவதற்கு முன்பு எதை கவனிக்க வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "avoid": [
+      "K0589"
+    ],
+    "category": "Trust",
+    "normalizedData": {
+      "originalQuery": "ஒருவரை நம்புவதற்கு முன்பு எதை கவனிக்க வேண்டும்",
+      "concepts": [
+        "நம்பிக்கை",
+        "ஒருவரின் குணம்",
+        "ஆராய்ந்து அறிதல்",
+        "தேர்வு",
+        "நம்பத்தகுந்தவர்",
+        "தெரிந்து தெளிதல்"
+      ],
+      "broadTerms": [
+        "எதை",
+        "வேண்டும்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 325,
+    "actualRef": "A051",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "4",
+    "query": "மற்றவர்களிடம் எப்படி பேச வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Speech",
+    "normalizedData": {
+      "originalQuery": "மற்றவர்களிடம் எப்படி பேச வேண்டும்",
+      "concepts": [
+        "பேச்சு",
+        "சொல்",
+        "இன்சொல்",
+        "இனிய சொல்",
+        "சொல்வன்மை",
+        "கடுஞ்சொல் தவிர்த்தல்",
+        "பயனுள்ள சொல்"
+      ],
+      "broadTerms": [
+        "எப்படி",
+        "வேண்டும்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 502,
+    "actualRef": "A010",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "5",
+    "query": "கோபத்தை அடக்குவது எப்படி",
+    "expectedAction": "VALID_DS2",
+    "expectedReference": "A031",
+    "category": "Anger",
+    "normalizedData": {
+      "originalQuery": "கோபத்தை அடக்குவது எப்படி",
+      "concepts": [
+        "சினம்",
+        "வெகுளி",
+        "வெகுளாமை",
+        "சினத்தை கட்டுப்படுத்துதல்"
+      ],
+      "broadTerms": [
+        "எப்படி"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 420,
+    "actualRef": "A031",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "6",
+    "query": "நல்ல மனிதனாக மாற என்ன செய்ய வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Character",
+    "normalizedData": {
+      "originalQuery": "நல்ல மனிதனாக மாற என்ன செய்ய வேண்டும்",
+      "concepts": [
+        "நல்ல பண்பு",
+        "நற்பண்பு",
+        "அறம்",
+        "ஒழுக்கம்",
+        "குணநலம்",
+        "சான்றாண்மை"
+      ],
+      "broadTerms": [
+        "நல்ல",
+        "என்ன",
+        "செய்ய",
+        "வேண்டும்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 341,
+    "actualRef": "A099",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "7",
+    "query": "வாழ்க்கையில் சரியான பாதையை எப்படி தேர்வு செய்வது",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Life/work",
+    "normalizedData": {
+      "originalQuery": "வாழ்க்கையில் சரியான பாதையை எப்படி தேர்வு செய்வது",
+      "concepts": [
+        "அறம்",
+        "அறவழி",
+        "நல்வழி",
+        "ஒழுக்கம்",
+        "செம்மை"
+      ],
+      "broadTerms": [
+        "வாழ்க்கையில்",
+        "எப்படி"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 29,
+    "actualRef": "A051",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_GENERAL",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "8",
+    "query": "மற்றவர்களுக்கு உதவுவது ஏன் முக்கியம்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "avoid": [
+      "K0834"
+    ],
+    "category": "Helping others",
+    "normalizedData": {
+      "originalQuery": "மற்றவர்களுக்கு உதவுவது ஏன் முக்கியம்",
+      "concepts": [
+        "உதவி",
+        "பிறருக்கு நன்மை",
+        "ஈகை",
+        "கொடை",
+        "இரக்கம்",
+        "ஒப்புரவு"
+      ],
+      "broadTerms": [
+        "ஏன்",
+        "முக்கியம்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 209,
+    "actualRef": "A023",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "9",
+    "query": "தோல்வி வந்தால் என்ன செய்ய வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Emotional / hardship",
+    "normalizedData": {
+      "originalQuery": "தோல்வி வந்தால் என்ன செய்ய வேண்டும்",
+      "concepts": [
+        "இடுக்கண்",
+        "துன்பம்",
+        "முயற்சி",
+        "தளராமை",
+        "விடாமுயற்சி",
+        "ஊக்கம்"
+      ],
+      "broadTerms": [
+        "வந்தால்",
+        "என்ன",
+        "செய்ய",
+        "வேண்டும்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 222,
+    "actualRef": "A062",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "10",
+    "query": "மனிதன் உண்மையில் நல்லவனாக வாழ என்ன செய்ய வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Character",
+    "normalizedData": {
+      "originalQuery": "மனிதன் உண்மையில் நல்லவனாக வாழ என்ன செய்ய வேண்டும்",
+      "concepts": [],
+      "broadTerms": [
+        "மனிதன்",
+        "வாழ",
+        "என்ன",
+        "செய்ய",
+        "வேண்டும்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 0
+    },
+    "latency": 595,
+    "actualRef": "D001",
+    "actualDataset": "UNKNOWN",
+    "actualIntent": "UNKNOWN",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "11",
+    "query": "நல்ல நண்பனை எப்படி அடையாளம் காண்பது",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Friendship",
+    "normalizedData": {
+      "originalQuery": "நல்ல நண்பனை எப்படி அடையாளம் காண்பது",
+      "concepts": [
+        "நண்பன்",
+        "நட்பு",
+        "நட்பின் பண்பு",
+        "உண்மையான நட்பு",
+        "நட்பை தேர்வு செய்தல்",
+        "கூடா நட்பு"
+      ],
+      "broadTerms": [
+        "நல்ல",
+        "எப்படி"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 286,
+    "actualRef": "A079",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "12",
+    "query": "யாரை நண்பனாக தேர்வு செய்ய வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Friendship",
+    "normalizedData": {
+      "originalQuery": "யாரை நண்பனாக தேர்வு செய்ய வேண்டும்",
+      "concepts": [],
+      "broadTerms": [
+        "யாரை",
+        "செய்ய",
+        "வேண்டும்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 0
+    },
+    "latency": 24,
+    "actualRef": "A051",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_GENERAL",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "13",
+    "query": "கற்றதை வாழ்க்கையில் எப்படி பயன்படுத்த வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Education",
+    "normalizedData": {
+      "originalQuery": "கற்றதை வாழ்க்கையில் எப்படி பயன்படுத்த வேண்டும்",
+      "concepts": [
+        "கற்றல்",
+        "அறிவு",
+        "கற்றதை பயன்படுத்துதல்"
+      ],
+      "broadTerms": [
+        "வாழ்க்கையில்",
+        "எப்படி",
+        "வேண்டும்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 211,
+    "actualRef": "A040",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "14",
+    "query": "அன்பாக இருப்பது ஏன் முக்கியம்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Character",
+    "normalizedData": {
+      "originalQuery": "அன்பாக இருப்பது ஏன் முக்கியம்",
+      "concepts": [
+        "அன்பு",
+        "அன்புடைமை",
+        "அன்பின் சிறப்பு"
+      ],
+      "broadTerms": [
+        "ஏன்",
+        "முக்கியம்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 154,
+    "actualRef": "A008",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "15",
+    "query": "கோபத்தில் பேசுவது நல்லதா?",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Anger",
+    "normalizedData": {
+      "originalQuery": "கோபத்தில் பேசுவது நல்லதா?",
+      "concepts": [
+        "சினம்",
+        "வெகுளி",
+        "வெகுளாமை",
+        "சினத்தை கட்டுப்படுத்துதல்",
+        "பேச்சு",
+        "சொல்",
+        "இன்சொல்",
+        "இனிய சொல்"
+      ],
+      "broadTerms": [],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 279,
+    "actualRef": "A031",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "16",
+    "query": "பிறருக்கு தீங்கு செய்யாமல் வாழ்வது எப்படி",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Character",
+    "normalizedData": {
+      "originalQuery": "பிறருக்கு தீங்கு செய்யாமல் வாழ்வது எப்படி",
+      "concepts": [
+        "இன்னா செய்தல்",
+        "தீவினை",
+        "தீமை"
+      ],
+      "broadTerms": [
+        "எப்படி"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 527,
+    "actualRef": "D001",
+    "actualDataset": "UNKNOWN",
+    "actualIntent": "UNKNOWN",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "17",
+    "query": "ஒருவர் தன்னுடைய தவறுகளை எப்படி திருத்திக் கொள்ள வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Character",
+    "normalizedData": {
+      "originalQuery": "ஒருவர் தன்னுடைய தவறுகளை எப்படி திருத்திக் கொள்ள வேண்டும்",
+      "concepts": [
+        "குற்றம்",
+        "குற்றங்கடிதல்",
+        "பிழை",
+        "குற்றம் பார்க்காமை"
+      ],
+      "broadTerms": [
+        "ஒருவர்",
+        "எப்படி",
+        "வேண்டும்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 187,
+    "actualRef": "A044",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "18",
+    "query": "பணத்தை எப்படி பயன்படுத்த வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Life/work",
+    "normalizedData": {
+      "originalQuery": "பணத்தை எப்படி பயன்படுத்த வேண்டும்",
+      "concepts": [
+        "பொருள்",
+        "செல்வம்",
+        "பொருட்செல்வம்",
+        "பொருட்பால்",
+        "ஈட்டல்"
+      ],
+      "broadTerms": [
+        "எப்படி",
+        "வேண்டும்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 150,
+    "actualRef": "A076",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "19",
+    "query": "நல்ல தலைவருக்கு என்ன பண்புகள் வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Life/work",
+    "normalizedData": {
+      "originalQuery": "நல்ல தலைவருக்கு என்ன பண்புகள் வேண்டும்",
+      "concepts": [
+        "இறைமாட்சி",
+        "மன்னன்",
+        "அரசன்",
+        "செங்கோன்மை",
+        "ஆட்சி",
+        "தலைமை"
+      ],
+      "broadTerms": [
+        "நல்ல",
+        "என்ன",
+        "வேண்டும்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 168,
+    "actualRef": "A039",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "20",
+    "query": "வாழ்க்கையில் தோல்வி வந்தால் எப்படி சமாளிக்க வேண்டும்",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Emotional / hardship",
+    "normalizedData": {
+      "originalQuery": "வாழ்க்கையில் தோல்வி வந்தால் எப்படி சமாளிக்க வேண்டும்",
+      "concepts": [
+        "இடுக்கண்",
+        "துன்பம்",
+        "முயற்சி",
+        "தளராமை",
+        "விடாமுயற்சி",
+        "ஊக்கம்"
+      ],
+      "broadTerms": [
+        "வாழ்க்கையில்",
+        "வந்தால்",
+        "எப்படி",
+        "வேண்டும்"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 171,
+    "actualRef": "A062",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "21",
+    "query": "கற்ற கல்வியை சரியாக பயன்படுத்த வேண்டும் என்று சொல்லும் குறள் எது?",
+    "expectedAction": "VALID_DS1",
+    "expectedReference": "K0391",
+    "category": "Education",
+    "normalizedData": {
+      "originalQuery": "கற்ற கல்வியை சரியாக பயன்படுத்த வேண்டும் என்று சொல்லும் குறள் எது?",
+      "concepts": [
+        "கற்றல்",
+        "அறிவு",
+        "கற்றதை பயன்படுத்துதல்"
+      ],
+      "broadTerms": [
+        "வேண்டும்",
+        "என்று",
+        "எது"
+      ],
+      "intentHints": {
+        "asksForKural": true,
+        "asksForMeaning": true,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 291,
+    "actualRef": "A040",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_GENERAL",
+    "isCorrect": false,
+    "reason": "Expected DS1 K0391 but got DS2 A040",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "22",
+    "query": "கற்ற கல்வியை சரியாக பயன்படுத்த வேண்டும் என்று சொல்லும் குறளின் பொருள் என்ன?",
+    "expectedAction": "VALID_DS1",
+    "expectedReference": "K0391",
+    "expectedIntent": "MEANING",
+    "category": "Education",
+    "normalizedData": {
+      "originalQuery": "கற்ற கல்வியை சரியாக பயன்படுத்த வேண்டும் என்று சொல்லும் குறளின் பொருள் என்ன?",
+      "concepts": [
+        "கற்றல்",
+        "அறிவு",
+        "கற்றதை பயன்படுத்துதல்"
+      ],
+      "broadTerms": [
+        "வேண்டும்",
+        "என்று",
+        "என்ன"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": true,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 1
+    },
+    "latency": 4,
+    "actualRef": "A040",
+    "actualDataset": "DS2",
+    "actualIntent": "TOPIC_GENERAL",
+    "isCorrect": false,
+    "reason": "Expected DS1 K0391 but got DS2 A040",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "23",
+    "query": "இந்த குறள் என்ன சொல்லுகிறது?",
+    "expectedAction": "UNKNOWN",
+    "category": "Ambiguous / unsafe",
+    "normalizedData": {
+      "originalQuery": "இந்த குறள் என்ன சொல்லுகிறது?",
+      "concepts": [],
+      "broadTerms": [
+        "என்ன"
+      ],
+      "intentHints": {
+        "asksForKural": true,
+        "asksForMeaning": true,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 0
+    },
+    "latency": 348,
+    "actualRef": "D001",
+    "actualDataset": "UNKNOWN",
+    "actualIntent": "UNKNOWN",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "24",
+    "query": "கம்ப்யூட்டர் எப்படி வேலை செய்கிறது",
+    "expectedAction": "UNKNOWN",
+    "category": "Ambiguous / unsafe",
+    "normalizedData": {
+      "originalQuery": "கம்ப்யூட்டர் எப்படி வேலை செய்கிறது",
+      "concepts": [],
+      "broadTerms": [
+        "எப்படி",
+        "வேலை"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 0
+    },
+    "latency": 344,
+    "actualRef": "D001",
+    "actualDataset": "UNKNOWN",
+    "actualIntent": "UNKNOWN",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "25",
+    "query": "hello world",
+    "expectedAction": "UNKNOWN",
+    "category": "Ambiguous / unsafe",
+    "normalizedData": {
+      "originalQuery": "hello world",
+      "concepts": [],
+      "broadTerms": [],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 0
+    },
+    "latency": 308,
+    "actualRef": "D001",
+    "actualDataset": "UNKNOWN",
+    "actualIntent": "UNKNOWN",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "26",
+    "query": "பிரியாணி எப்படி சமைப்பது",
+    "expectedAction": "UNKNOWN",
+    "category": "Ambiguous / unsafe",
+    "normalizedData": {
+      "originalQuery": "பிரியாணி எப்படி சமைப்பது",
+      "concepts": [],
+      "broadTerms": [
+        "எப்படி",
+        "சமைப்பது"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 0
+    },
+    "latency": 335,
+    "actualRef": "D001",
+    "actualDataset": "UNKNOWN",
+    "actualIntent": "UNKNOWN",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "27",
+    "query": "நட்பைப் பற்றிய அதிகாரம் என்ன?",
+    "expectedAction": "VALID_DS2",
+    "expectedReference": "A079",
+    "category": "Friendship",
+    "normalizedData": {
+      "originalQuery": "நட்பைப் பற்றிய அதிகாரம் என்ன?",
+      "concepts": [
+        "நண்பன்",
+        "நட்பு",
+        "நட்பின் பண்பு",
+        "உண்மையான நட்பு",
+        "நட்பை தேர்வு செய்தல்",
+        "கூடா நட்பு"
+      ],
+      "broadTerms": [
+        "பற்றிய",
+        "என்ன"
+      ],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": true
+      },
+      "confidence": 1
+    },
+    "latency": 199,
+    "actualRef": "A079",
+    "actualDataset": "DS2",
+    "actualIntent": "ADHIGARAM",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "28",
+    "query": "அகர முதல",
+    "expectedAction": "UNKNOWN_OR_VALID_KURAL",
+    "category": "Ambiguous / unsafe",
+    "normalizedData": {
+      "originalQuery": "அகர முதல",
+      "concepts": [],
+      "broadTerms": [],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 0
+    },
+    "latency": 310,
+    "actualRef": "K0001",
+    "actualDataset": "DS1",
+    "actualIntent": "KURAL_AND_EXPLANATION",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "29",
+    "query": "101வது குறள் என்ன",
+    "expectedAction": "VALID_DS1",
+    "expectedReference": "K0101",
+    "category": "Education",
+    "normalizedData": {
+      "originalQuery": "101வது குறள் என்ன",
+      "concepts": [],
+      "broadTerms": [
+        "என்ன"
+      ],
+      "intentHints": {
+        "asksForKural": true,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 0
+    },
+    "latency": 3,
+    "actualRef": "K0101",
+    "actualDataset": "DS1",
+    "actualIntent": "KURAL_TEXT",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  },
+  {
+    "id": "30",
+    "query": "xyzabc",
+    "expectedAction": "UNKNOWN",
+    "category": "Ambiguous / unsafe",
+    "normalizedData": {
+      "originalQuery": "xyzabc",
+      "concepts": [],
+      "broadTerms": [],
+      "intentHints": {
+        "asksForKural": false,
+        "asksForMeaning": false,
+        "asksForExplanation": false,
+        "asksForAdhigaram": false
+      },
+      "confidence": 0
+    },
+    "latency": 302,
+    "actualRef": "D001",
+    "actualDataset": "UNKNOWN",
+    "actualIntent": "UNKNOWN",
+    "isCorrect": true,
+    "reason": "",
+    "top5RecallCandidates": []
+  }
+]

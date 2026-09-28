@@ -1,0 +1,18 @@
+[
+  { "query": "இன்று வானிலை எப்படி இருக்கும்?", "expected_reference": "UNKNOWN" },
+  { "query": "தமிழ்நாட்டின் முதலமைச்சர் யார்?", "expected_reference": "UNKNOWN" },
+  { "query": "நீங்கள் யார்?", "expected_reference": "UNKNOWN" },
+  { "query": "திருக்குறளை இயற்றியவர் யார்?", "expected_reference": "UNKNOWN" },
+  { "query": "வணக்கம், எப்படி இருக்கிறீர்கள்?", "expected_reference": "UNKNOWN" },
+  { "query": "அறம் பற்றி திருக்குறள் சொல்லு", "expected_reference": "UNKNOWN" },
+  { "query": "பொருள் குறள்", "expected_reference": "UNKNOWN" },
+  { "query": "நட்பு என்றால் என்ன?", "expected_reference": "UNKNOWN" },
+  { "query": "காதல் பற்றி குறள்", "expected_reference": "UNKNOWN" },
+  { "query": "நீர் பற்றி சொல்லும் குறள் என்ன?", "expected_reference": "UNKNOWN" },
+  { "query": "எப்படி நன்றாக தூங்குவது?", "expected_reference": "UNKNOWN" },
+  { "query": "குறள்", "expected_reference": "UNKNOWN" },
+  { "query": "திருக்குறள்", "expected_reference": "UNKNOWN" },
+  { "query": "அகர", "expected_reference": "UNKNOWN" },
+  { "query": "முதல", "expected_reference": "UNKNOWN" },
+  { "query": "அறன்", "expected_reference": "UNKNOWN" }
+]
