@@ -1,16 +1,36 @@
 /*
   Thiruvalluvar Voice AI - ESP32 Hardware Client
   ────────────────────────────────────────────────────────────────────────
-  Hardware:
-    - ESP32 DevKit (or ESP32-S3)
-    - I2S Microphone (INMP441 / SPH0645) or Analog Mic via I2S
-    - I2S DAC Audio Amp (MAX98357A) + Speaker
-    - SSD1306 0.96" OLED Display (I2C)
-    - Push-to-Talk Button (uses GPIO 0 / BOOT button or external button)
+  Exact Pinout from Schematic (TirtheshBuilds / Cirkit Designer):
 
-  Libraries Needed in Arduino IDE:
-    - Adafruit SSD1306 & Adafruit GFX (for OLED)
-    - WiFi & HTTPClient / WiFiClientSecure (built-in ESP32)
+    1. INMP441 I2S Microphone:
+       - VDD  -> 3V3
+       - GND  -> GND
+       - L/R  -> GND (Left channel mono)
+       - SD   -> GPIO 32 (D32)
+       - WS   -> GPIO 33 (D33)
+       - SCK  -> GPIO 14 (D14)
+
+    2. MAX98357A I2S DAC Audio Amplifier:
+       - VIN  -> VIN (5V)
+       - GND  -> GND
+       - LRC  -> GPIO 25 (D25)
+       - DIN  -> GPIO 26 (D26)
+       - BCLK -> GPIO 27 (D27)
+       - Speaker +/- -> Connected to 3W speaker
+
+    3. SSD1306 0.96" OLED Display (I2C):
+       - VCC  -> 3V3
+       - GND  -> GND
+       - SCL  -> GPIO 15 (D15)
+       - SDA  -> GPIO 4  (D4)
+
+    4. Button:
+       - Built-in BOOT button on ESP32 (GPIO 0)
+         (Press and hold BOOT to speak, release to send)
+
+  Required Libraries in Arduino IDE:
+    - Adafruit SSD1306 & Adafruit GFX
 */
 
 #include <WiFi.h>
@@ -21,51 +41,51 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-// ─── 1. Wi-Fi & Cloudflare Settings ──────────────────────────────────────────
-const char* WIFI_SSID     = "YOUR_WIFI_NAME";
-const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
+// ─── 1. Wi-Fi & Live Cloudflare Endpoint ───────────────────────────────────────
+const char* WIFI_SSID     = "YOUR_WIFI_NAME";      // <-- Put Wi-Fi name here
+const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";  // <-- Put Wi-Fi password here
 
-// Paste your Cloudflare Tunnel URL here
+// Your live Cloudflare Tunnel endpoint:
 const char* SERVER_URL    = "https://rare-houses-only-disclaimer.trycloudflare.com/api/v1/voice/talk";
 
-// ─── 2. Pin Definitions ──────────────────────────────────────────────────────
-#define BUTTON_PIN      0     // Built-in BOOT button (or external push button to GND)
+// ─── 2. Pin Definitions (From Your Exact Schematic) ───────────────────────────
+#define BUTTON_PIN      0     // Built-in BOOT button on ESP32
 
 // OLED Display (I2C)
 #define SCREEN_WIDTH    128
 #define SCREEN_HEIGHT   64
 #define OLED_RESET      -1
-#define OLED_SDA        21
-#define OLED_SCL        22
+#define OLED_SDA        4     // D4 connected to SDA
+#define OLED_SCL        15    // D15 connected to SCL
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-// I2S Microphone Pins (INMP441)
+// INMP441 Microphone Pins (I2S Input)
 #define I2S_MIC_PORT    I2S_NUM_0
-#define I2S_MIC_SCK     33    // Serial Clock
-#define I2S_MIC_WS      25    // Word Select (L/R clock)
-#define I2S_MIC_SD      32    // Serial Data
+#define I2S_MIC_SCK     14    // D14 connected to SCK
+#define I2S_MIC_WS      33    // D33 connected to WS
+#define I2S_MIC_SD      32    // D32 connected to SD
 
-// I2S Speaker Pins (MAX98357A)
+// MAX98357A Speaker Pins (I2S Output)
 #define I2S_SPK_PORT    I2S_NUM_1
-#define I2S_SPK_BCLK    26    // Bit Clock
-#define I2S_SPK_LRC     27    // Left/Right Clock
-#define I2S_SPK_DIN     22    // Data In
+#define I2S_SPK_BCLK    27    // D27 connected to BCLK
+#define I2S_SPK_DIN     26    // D26 connected to DIN
+#define I2S_SPK_LRC     25    // D25 connected to LRC
 
-// ─── 3. Audio Recording Buffer Config ────────────────────────────────────────
+// ─── 3. Audio Config ─────────────────────────────────────────────────────────
 #define SAMPLE_RATE     16000
-#define RECORD_SECONDS  4     // Maximum duration per voice question
+#define RECORD_SECONDS  4     // Maximum question duration (seconds)
 #define BUFFER_SIZE     (SAMPLE_RATE * 2 * RECORD_SECONDS) // 16-bit = 2 bytes per sample
 
 uint8_t* recordBuffer = NULL;
 
-// ─── 4. OLED Helper ──────────────────────────────────────────────────────────
+// ─── 4. OLED Display Helper ──────────────────────────────────────────────────
 void showStatus(const char* line1, const char* line2 = "") {
   display.clearDisplay();
   display.setTextSize(1);
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0, 0);
   display.println("Thiruvalluvar AI");
-  display.println("────────────────");
+  display.println("----------------");
   display.setTextSize(1);
   display.println(line1);
   if (strlen(line2) > 0) {
@@ -126,7 +146,7 @@ void setupI2SSpeaker() {
 // ─── 6. WAV Header Generator ─────────────────────────────────────────────────
 void createWavHeader(byte* header, int totalDataLen) {
   int totalFileLen = totalDataLen + 36;
-  int byteRate = SAMPLE_RATE * 1 * 2; // sample_rate * channels * 2 bytes
+  int byteRate = SAMPLE_RATE * 1 * 2;
 
   header[0] = 'R'; header[1] = 'I'; header[2] = 'F'; header[3] = 'F';
   header[4] = (byte)(totalFileLen & 0xff);
@@ -135,9 +155,9 @@ void createWavHeader(byte* header, int totalDataLen) {
   header[7] = (byte)((totalFileLen >> 24) & 0xff);
   header[8] = 'W'; header[9] = 'A'; header[10] = 'V'; header[11] = 'E';
   header[12] = 'f'; header[13] = 'm'; header[14] = 't'; header[15] = ' ';
-  header[16] = 16; header[17] = 0; header[18] = 0; header[19] = 0; // Subchunk1Size (16 for PCM)
-  header[20] = 1; header[21] = 0;  // AudioFormat (1 = PCM)
-  header[22] = 1; header[23] = 0;  // NumChannels (1 = Mono)
+  header[16] = 16; header[17] = 0; header[18] = 0; header[19] = 0;
+  header[20] = 1; header[21] = 0;  // PCM
+  header[22] = 1; header[23] = 0;  // Mono
   header[24] = (byte)(SAMPLE_RATE & 0xff);
   header[25] = (byte)((SAMPLE_RATE >> 8) & 0xff);
   header[26] = (byte)((SAMPLE_RATE >> 16) & 0xff);
@@ -157,15 +177,14 @@ void createWavHeader(byte* header, int totalDataLen) {
 
 // ─── 7. Record Audio ─────────────────────────────────────────────────────────
 int recordAudio() {
-  showStatus("Listening...", "Speak your Tamil question");
+  showStatus("Listening...", "Speak your Tamil query");
   size_t bytesRead = 0;
   size_t totalBytes = 0;
 
-  unsigned long startTime = millis();
   while (totalBytes < BUFFER_SIZE) {
-    // If button was released early, stop recording
+    // If BOOT button was released, stop recording early
     if (digitalRead(BUTTON_PIN) == HIGH && totalBytes > (SAMPLE_RATE * 2)) {
-      break; 
+      break;
     }
     i2s_read(I2S_MIC_PORT, (void*)(recordBuffer + 44 + totalBytes), 1024, &bytesRead, portMAX_DELAY);
     totalBytes += bytesRead;
@@ -181,12 +200,12 @@ void sendAndPlayResponse(int totalWavBytes) {
   showStatus("Thinking...", "Processing AI answer...");
 
   WiFiClientSecure client;
-  client.setInsecure(); // Allows Cloudflare Tunnel HTTPS without needing certificate bundles
+  client.setInsecure(); // Allows Cloudflare Tunnel HTTPS without certificate bundles
 
   HTTPClient http;
   http.begin(client, SERVER_URL);
   http.addHeader("Content-Type", "audio/wav");
-  http.setTimeout(30000); // 30s timeout for AI model inference
+  http.setTimeout(35000); // 35s timeout for AI inference & network transit
 
   int httpCode = http.POST(recordBuffer, totalWavBytes);
 
@@ -207,12 +226,12 @@ void sendAndPlayResponse(int totalWavBytes) {
         i2s_write(I2S_SPK_PORT, playBuffer, len, &bytesWritten, portMAX_DELAY);
       }
     }
-    showStatus("Ready!", "Press button to ask");
+    showStatus("Ready!", "Hold BOOT to speak");
   } else {
     String err = "HTTP Error: " + String(httpCode);
     showStatus("Server Error", err.c_str());
     delay(2500);
-    showStatus("Ready!", "Press button to ask");
+    showStatus("Ready!", "Hold BOOT to speak");
   }
 
   http.end();
@@ -223,7 +242,7 @@ void setup() {
   Serial.begin(115200);
   pinMode(BUTTON_PIN, INPUT_PULLUP);
 
-  // Initialize OLED
+  // Initialize OLED on D4 (SDA) and D15 (SCL) as wired in schematic
   Wire.begin(OLED_SDA, OLED_SCL);
   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
     Serial.println("OLED init failed");
@@ -251,12 +270,12 @@ void setup() {
   setupI2SMicrophone();
   setupI2SSpeaker();
 
-  showStatus("Ready!", "Press button to ask");
+  showStatus("Ready!", "Hold BOOT to speak");
 }
 
 // ─── Loop ────────────────────────────────────────────────────────────────────
 void loop() {
-  // Check if button is pressed (LOW when pressed with INPUT_PULLUP)
+  // Check if BOOT button is pressed (LOW when pressed with INPUT_PULLUP)
   if (digitalRead(BUTTON_PIN) == LOW) {
     delay(50); // Debounce
     if (digitalRead(BUTTON_PIN) == LOW) {
@@ -266,4 +285,3 @@ void loop() {
   }
   delay(20);
 }
-
