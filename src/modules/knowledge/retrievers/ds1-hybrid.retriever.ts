@@ -27,14 +27,18 @@ export class Ds1HybridRetriever implements OnModuleInit {
   ) {}
 
   async onModuleInit() {
-    this.logger.log('Loading Xenova/bge-m3 model for Hybrid retrieval...');
+    this.logger.log('Loading Xenova/bge-m3 model (quantized) for Hybrid retrieval...');
     try {
       const { pipeline } = await import('@xenova/transformers');
-      this.extractor = await pipeline('feature-extraction', 'Xenova/bge-m3');
+      this.extractor = await pipeline('feature-extraction', 'Xenova/bge-m3', { quantized: true });
       this.logger.log('Xenova/bge-m3 model loaded successfully.');
     } catch (e: any) {
       this.logger.error('Failed to load semantic model: ' + (e.stack || e.message || e), e);
     }
+  }
+
+  getExtractor() {
+    return this.extractor;
   }
 
   async retrieveCandidates(

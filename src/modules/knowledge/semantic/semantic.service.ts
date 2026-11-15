@@ -6,7 +6,6 @@ import { Ds1HybridRetriever, RetrievalMode } from '../retrievers/ds1-hybrid.retr
 @Injectable()
 export class SemanticRetrievalService implements OnModuleInit {
   private readonly logger = new Logger(SemanticRetrievalService.name);
-  private extractor: any;
   private readonly SIMILARITY_THRESHOLD = 0.88; // Minimum threshold
   private readonly MARGIN_THRESHOLD = 0.02; // Minimum margin to safely accept Top 1 over Top 2 if they are in a conflict group
 
@@ -23,15 +22,13 @@ export class SemanticRetrievalService implements OnModuleInit {
     private readonly hybridRetriever: Ds1HybridRetriever,
   ) { }
 
+  private get extractor() {
+    return this.hybridRetriever.getExtractor();
+  }
+
   async onModuleInit() {
-    this.logger.log('Loading Xenova/bge-m3 model for semantic retrieval...');
-    try {
-      const { pipeline } = await import('@xenova/transformers');
-      this.extractor = await pipeline('feature-extraction', 'Xenova/bge-m3');
-      this.logger.log('Xenova/bge-m3 model loaded successfully.');
-    } catch (e: any) {
-      this.logger.error('Failed to load semantic model: ' + (e.stack || e.message || e), e);
-    }
+    // Reuses the single shared extractor from Ds1HybridRetriever to save RAM
+    this.logger.log('SemanticRetrievalService ready (using shared bge-m3 extractor).');
   }
 
   async retrieveAdhigaram(query: string) {
