@@ -25,8 +25,8 @@
 const char* WIFI_SSID     = "YOUR_WIFI_NAME";
 const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
 
-// Paste your Cloudflare Tunnel URL here (from: cloudflared tunnel --url http://localhost:8000)
-const char* SERVER_URL    = "https://your-tunnel-name.trycloudflare.com/api/v1/voice/talk";
+// Paste your Cloudflare Tunnel URL here
+const char* SERVER_URL    = "https://rare-houses-only-disclaimer.trycloudflare.com/api/v1/voice/talk";
 
 // ─── 2. Pin Definitions ──────────────────────────────────────────────────────
 #define BUTTON_PIN      0     // Built-in BOOT button (or external push button to GND)
@@ -266,3 +266,4 @@ void loop() {
   }
   delay(20);
 }
+
