@@ -29,11 +29,35 @@ import urllib.error
 import nemo.collections.asr as nemo_asr
 
 # ─── Configuration ────────────────────────────────────────────────────────────
-CHECKPOINT = (
-    r"D:\hf\hub\models--ai4bharat--indicconformer_stt_ta_hybrid_ctc_rnnt_large"
-    r"\snapshots\8c31aa8d04964b8fc87e4eaaee7916f7d2c024da"
-    r"\indicconformer_stt_ta_hybrid_rnnt_large.nemo"
-)
+def resolve_checkpoint_path() -> str:
+    # 1. Check environment variable
+    if os.environ.get("STT_CHECKPOINT_PATH") and os.path.exists(os.environ["STT_CHECKPOINT_PATH"]):
+        return os.environ["STT_CHECKPOINT_PATH"]
+
+    # 2. Check standard local paths
+    candidate_paths = [
+        os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "models", "stt", "indicconformer_stt_ta_hybrid_rnnt_large.nemo")),
+        os.path.abspath(os.path.join(os.path.dirname(__file__), "models", "indicconformer_stt_ta_hybrid_rnnt_large.nemo")),
+        r"D:\hf\hub\models--ai4bharat--indicconformer_stt_ta_hybrid_ctc_rnnt_large\snapshots\8c31aa8d04964b8fc87e4eaaee7916f7d2c024da\indicconformer_stt_ta_hybrid_rnnt_large.nemo"
+    ]
+    for p in candidate_paths:
+        if os.path.exists(p):
+            return p
+
+    # 3. Auto-download from Hugging Face if not found
+    try:
+        print("STT model checkpoint not found locally. Downloading from Hugging Face...")
+        from huggingface_hub import hf_hub_download
+        downloaded = hf_hub_download(
+            repo_id="ai4bharat/indicconformer_stt_ta_hybrid_ctc_rnnt_large",
+            filename="indicconformer_stt_ta_hybrid_rnnt_large.nemo"
+        )
+        return downloaded
+    except Exception as e:
+        print(f"Warning: Auto-download failed: {e}")
+        return candidate_paths[0]
+
+CHECKPOINT = resolve_checkpoint_path()
 SAMPLERATE   = 16000
 CHANNELS     = 1
 TEMP_WAV     = "temp_voice_recording.wav"

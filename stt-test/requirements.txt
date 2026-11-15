@@ -1,0 +1,31 @@
+# Thiruvalluvar Voice AI - Speech to Text (STT) & Voice Requirements
+# Recommended Python version: Python 3.10 or 3.11
+
+# PyTorch (CPU or CUDA)
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Audio I/O
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.24.0
+
+# Hugging Face & Model Download
+huggingface-hub>=0.20.0
+requests>=2.28.0
+
+# Piper TTS (Neural Text to Speech)
+piper-tts>=1.2.0
+
+# NeMo dependencies
+pytorch-lightning>=2.0.0
+librosa>=0.10.0
+omegaconf>=2.3.0
+ruamel.yaml>=0.17.0
+numba>=0.57.0
+transformers>=4.36.0
+editdistance>=0.6.0
+sacremoses>=0.0.53
+sentencepiece>=0.1.99
+tqdm>=4.65.0
+

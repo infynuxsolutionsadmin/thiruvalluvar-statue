@@ -11,3 +11,8 @@ patch_nemo/
 *.conda
 *.tar.bz2
 miniconda.sh
+models/**/*.nemo
+models/**/*.onnx
+models/**/*.onnx.json
+transcript.txt
+stt-test/transcript.txt
