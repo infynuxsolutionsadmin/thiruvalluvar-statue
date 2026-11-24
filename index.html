@@ -220,11 +220,11 @@
             const knowledgeRes = await fetch('http://localhost:3000/api/v1/knowledge/query', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ text })
+                body: JSON.stringify({ query: text, text: text })
             });
             
             const knowledgeData = await knowledgeRes.json();
-            const answer = knowledgeData.answer?.explanation || "மன்னிக்கவும், எனக்குப் புரியவில்லை.";
+            const answer = knowledgeData.answer?.tamilExplanation || knowledgeData.answer?.kural || knowledgeData.answer?.text || knowledgeData.answer?.explanation || "மன்னிக்கவும், எனக்குப் புரியவில்லை.";
             
             // 3. Request TTS Audio
             const ttsRes = await fetch('http://localhost:3000/api/v1/tts/synthesize', {

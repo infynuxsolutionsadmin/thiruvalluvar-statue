@@ -15,7 +15,8 @@ export class KnowledgeController {
    */
   @Post('query')
   @HttpCode(200)
-  async query(@Body() dto: QueryDto) {
-    return await this.knowledgeService.query(dto.query ?? '');
+  async query(@Body() dto: any) {
+    const q = dto?.query ?? dto?.text ?? '';
+    return await this.knowledgeService.query(q);
   }
 }
