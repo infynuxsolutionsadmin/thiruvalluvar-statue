@@ -128,6 +128,18 @@ class VoiceRequestHandler(BaseHTTPRequestHandler):
                 }
             })
             self.wfile.write(response.encode("utf-8"))
+        elif self.path == "/api/v1/voice/talk":
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            response = json.dumps({
+                "endpoint": "/api/v1/voice/talk",
+                "method": "POST",
+                "status": "active",
+                "message": "This endpoint is active and ready! Send an HTTP POST request with 16kHz WAV audio from ESP32."
+            })
+            self.wfile.write(response.encode("utf-8"))
         else:
             self.send_response(404)
             self.end_headers()
@@ -236,3 +248,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
